@@ -1,12 +1,12 @@
 module Spotifiery
 
   module Searchable    
-    
+    extend ActiveSupport::Autoload
 
-    autoload :Base, 'searchable/base'
-    autoload :Track, 'searchable/track'
-    autoload :Album, 'searchable/album'
-    autoload :Artist, 'searchable/artist'
+    autoload :Base
+    autoload :Track
+    autoload :Album
+    autoload :Artist
        
   end
 

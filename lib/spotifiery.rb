@@ -1,9 +1,9 @@
  # encoding: utf-8
 module Spotifiery
-  
+  extend ActiveSupport::Autoload
 
-  autoload :Searchable, 'spotifiery/searchable'
-  autoload :SearchResult, 'spotifiery/search_result'
+  autoload :Searchable
+  autoload :SearchResult
 
 
 end

@@ -1,8 +1,9 @@
 module Spotifiery
 
   module SearchResult        
-    
-    autoload :Base, 'search_result/base'
+    extend ActiveSupport::Autoload
+
+    autoload :Base
     
        
   end
