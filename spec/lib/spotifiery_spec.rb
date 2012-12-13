@@ -1,0 +1,2 @@
+describe 'Spotifiery' do
+end

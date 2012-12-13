@@ -1,0 +1,1255 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ws.spotify.com/search/1/track.json?page=1&q=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 02 Dec 2012 13:39:34 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Mon, 03 Dec 2012 13:38:10 GMT
+      Last-Modified:
+      - Fri, 30 Nov 2012 23:41:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '110'
+      X-Varnish:
+      - 1811424470 1811420507
+      Age:
+      - '84'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"info": {"num_results": 0, "limit": 100, "offset": 0, "query": "",
+        "type": "track", "page": 1}, "tracks": []}'
+    http_version: 
+  recorded_at: Sun, 02 Dec 2012 13:39:34 GMT
+- request:
+    method: get
+    uri: http://ws.spotify.com/search/1/track.json?page=1&q=Foo%20Fighters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 12:47:48 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 12:47:48 GMT
+      Last-Modified:
+      - Wed, 05 Dec 2012 23:38:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '91868'
+      X-Varnish:
+      - '1826087575'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"info": {"num_results": 1413, "limit": 100, "offset": 0, "query":
+        "Foo Fighters", "type": "track", "page": 1}, "tracks": [{"album": {"released":
+        "1995", "href": "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest
+        Hits", "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT
+        AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH
+        CI CK CL CM CN CR CU CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU
+        ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC
+        LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU
+        MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN
+        PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR
+        ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ
+        VA VC VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Everlong", "popularity":
+        "0.76242", "external-ids": [{"type": "isrc", "id": "USRW29600011"}], "length":
+        250.259, "href": "spotify:track:07q6QTQXyPRCf7GbLakRPr", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "3"}, {"album": {"released": "1995", "href": "spotify:album:1zCNrbPpz5OLSr6mSpPdKm",
+        "name": "Greatest Hits", "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CR CU CV CY CZ DE DJ DK DM DO DZ EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW
+        GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR
+        KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO
+        MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PF
+        PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW
+        TZ UA UG US UY UZ VA VC VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Learn
+        To Fly", "popularity": "0.73114", "external-ids": [{"type": "isrc", "id":
+        "USRW39900002"}], "length": 235.068, "href": "spotify:track:0mWiuXuLAJ3Brin3Or2x6v",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "6"}, {"album": {"released": "2011", "href":
+        "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "name": "Wasting Light", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "Walk", "popularity": "0.72796", "external-ids":
+        [{"type": "isrc", "id": "USRW31100002"}], "length": 256.246, "href": "spotify:track:76Je5Wklky23mVoxiRszcN",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "11"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "My Hero", "popularity": "0.72673", "external-ids":
+        [{"type": "isrc", "id": "USRW29600007"}], "length": 259.252, "href": "spotify:track:7u5dBtASrtOuBTTZjJrvuJ",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "5"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Best Of You", "popularity": "0.72621", "external-ids":
+        [{"type": "isrc", "id": "USRW30500001"}], "length": 255.252, "href": "spotify:track:1sn6iOK93jnp0Hn5BnNOXy",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "2"}, {"album": {"released": "2007", "href":
+        "spotify:album:2ovXUTjkBkNlgAU7DTIxX9", "name": "Echoes, Silence, Patience
+        & Grace", "availability": {"territories": "AR AT AU BE BO BR BW CH CL CO CR
+        CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA MT MX NA
+        NG NI NL NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "name": "The
+        Pretender", "popularity": "0.72339", "external-ids": [{"type": "isrc", "id":
+        "USRW30700007"}], "length": 269.658, "href": "spotify:track:3ZsjgLDSvusBgxGWrTAVto",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "1"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Everlong - Acoustic Version", "popularity":
+        "0.68524", "external-ids": [{"type": "isrc", "id": "USRW30900002"}], "length":
+        251.2, "href": "spotify:track:3QmesrvdbPjwf7i40nht1D", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "16"}, {"album": {"released": "1995", "href": "spotify:album:1zCNrbPpz5OLSr6mSpPdKm",
+        "name": "Greatest Hits", "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CR CU CV CY CZ DE DJ DK DM DO DZ EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW
+        GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR
+        KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO
+        MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PF
+        PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW
+        TZ UA UG US UY UZ VA VC VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Times
+        Like These", "popularity": "0.68460", "external-ids": [{"type": "isrc", "id":
+        "USRW30200005"}], "length": 268.272, "href": "spotify:track:4xanWVQIzdCf51mg8cd1cQ",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "7"}, {"album": {"released": "2005", "href":
+        "spotify:album:6nf2P1xl5Z4qHdTAsdvo6B", "name": "Best Of You", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA
+        NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY
+        QA RE RO RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD
+        TF TG TJ TK TL TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "Best Of You", "popularity": "0.68371", "external-ids":
+        [{"type": "isrc", "id": "USRW30500001"}], "length": 256.873, "href": "spotify:track:4nUM7pGcTUK2pY1d2LybrT",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "1"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Monkey Wrench", "popularity": "0.67965", "external-ids":
+        [{"type": "isrc", "id": "USRW29600001"}], "length": 231.094, "href": "spotify:track:43TxY9bYSyZ4QRPA0UJddL",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "8"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "The Pretender", "popularity": "0.67911", "external-ids":
+        [{"type": "isrc", "id": "USRW30700007"}], "length": 267.645, "href": "spotify:track:6HNruFQlzQx4ulL4ppRLYI",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "4"}, {"album": {"released": "2011", "href":
+        "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "name": "Wasting Light", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "These Days", "popularity": "0.67581", "external-ids":
+        [{"type": "isrc", "id": "USRW31100008"}], "length": 298.601, "href": "spotify:track:2kN05N1AQQplsgFweFAqYb",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "6"}, {"album": {"released": "2011", "href":
+        "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "name": "Wasting Light", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "Rope", "popularity": "0.66640", "external-ids":
+        [{"type": "isrc", "id": "USRW31100001"}], "length": 259.305, "href": "spotify:track:7v0mtl6oInUtHOmTk2b0gC",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "2"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Wheels", "popularity": "0.66254", "external-ids":
+        [{"type": "isrc", "id": "USRC10900528"}], "length": 278.521, "href": "spotify:track:3KsatAMRt1a7iryhWt5I8U",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "14"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "All My Life", "popularity": "0.65336", "external-ids":
+        [{"type": "isrc", "id": "USRW30200001"}], "length": 263.854, "href": "spotify:track:2HbVINmehEbPmjlcueXEJJ",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "1"}, {"album": {"released": "2003", "href":
+        "spotify:album:6mulYcpWRDAiv7KIouWvyP", "name": "ONE BY ONE", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+        NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW
+        PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "All My Life", "popularity": "0.64521",
+        "external-ids": [{"type": "isrc", "id": "USRW30200001"}], "length": 263.017,
+        "href": "spotify:track:5vMDvp6nUnTYhl5NMpgOnL", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "1"}, {"album": {"released": "2011",
+        "href": "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "name": "Wasting Light", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "Bridge Burning", "popularity": "0.64046", "external-ids":
+        [{"type": "isrc", "id": "USRW31100004"}], "length": 286.783, "href": "spotify:track:0bHD1nLe7Nhw55ZGJ92332",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "1"}, {"album": {"released": "2011", "href":
+        "spotify:album:14fsl2kaRIOEDrZvx8gFpn", "name": "Wasting Light (Deluxe Version)",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY
+        VE ZA"}}, "name": "Walk", "popularity": "0.63633", "external-ids": [{"type":
+        "isrc", "id": "USRW31100002"}], "length": 256.246, "href": "spotify:track:59qQW1tOhDxbkHKMPB3vwJ",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "11"}, {"album": {"released": "2011", "href":
+        "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "name": "Wasting Light", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "Arlandria", "popularity": "0.63108", "external-ids":
+        [{"type": "isrc", "id": "USRW31100007"}], "length": 267.854, "href": "spotify:track:5TOYgNohZAFEPOtnchPhZS",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "5"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Big Me", "popularity": "0.63105", "external-ids":
+        [{"type": "isrc", "id": "USRW29500002"}], "length": 132.502, "href": "spotify:track:04Jk0uP8SbDHLyAKfRctNQ",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "9"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Long Road To Ruin", "popularity": "0.62463",
+        "external-ids": [{"type": "isrc", "id": "USRW30700010"}], "length": 228.611,
+        "href": "spotify:track:4Hv5jUXVQveCj36wN6dPmD", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "11"}, {"album": {"released": "2007",
+        "href": "spotify:album:23IzefkhxAZbUGmRW88BTa", "name": "The Pretender", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY DE DJ DK DM DO DZ EE EG EH ER ET FI FJ FK FM FO FR GA GB GD GE GF GH
+        GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT ID IE IL IN IO IQ IR IS JM JO
+        KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME
+        MG MH MK ML MM MN MO MP MQ MR MS MU MV MW MX MY MZ NA NC NE NG NI NL NO NP
+        NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PW PY QA RE RS RW SA SB SC SD SG
+        SH SI SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW
+        TZ UA UG US UY UZ VA VC VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "The
+        Pretender", "popularity": "0.61459", "external-ids": [{"type": "isrc", "id":
+        "USRW30700007"}], "length": 269.188, "href": "spotify:track:26Mj7D26lsxoUdE4p91mku",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "1"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Breakout", "popularity": "0.61391", "external-ids":
+        [{"type": "isrc", "id": "USRW39900004"}], "length": 201.054, "href": "spotify:track:3Y8X0tMSEKZt7rOHDwCrtt",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "10"}, {"album": {"released": "2002", "href":
+        "spotify:album:2TIp2qGorHvqyaiAb82Awe", "name": "One By One", "availability":
+        {"territories": "AR BO BR CA CL CN CO CR EC GT HK HN ID IN KR KZ MX MY NI
+        PA PE PH PY RU SG SV TH TR TW US UY VE"}}, "name": "All My Life", "popularity":
+        "0.61201", "external-ids": [{"type": "isrc", "id": "USRW30200001"}], "length":
+        263.017, "href": "spotify:track:40Gxnw5Vc8hnhGFknXHe3R", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "1"}, {"album": {"released": "2011", "href": "spotify:album:14fsl2kaRIOEDrZvx8gFpn",
+        "name": "Wasting Light (Deluxe Version)", "availability": {"territories":
+        "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HK
+        HN HU ID IE IN IT KR KZ LB LT LU LV MA MT MX MY NA NG NI NL NO PA PE PH PL
+        PT PY RO RU SE SG SK SV TH TN TR TW US UY VE ZA"}}, "name": "Rope", "popularity":
+        "0.61176", "external-ids": [{"type": "isrc", "id": "USRW31100001"}], "length":
+        259.305, "href": "spotify:track:54hKdgpetDyrGQEAQwrnPQ", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "2"}, {"album": {"released": "2009", "href": "spotify:album:6Dgtc6gv91FLT2zRZU2mis",
+        "name": "Wheels", "availability": {"territories": "AD AE AF AG AI AL AM AN
+        AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA
+        CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW
+        GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR
+        KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO
+        MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW
+        TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Wheels",
+        "popularity": "0.60862", "external-ids": [{"type": "isrc", "id": "USRC10900528"}],
+        "length": 277.998, "href": "spotify:track:7HS35r2OVvrj40GxdQqd6P", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "1"}, {"album": {"released": "2011", "href": "spotify:album:5lnQLEUiVDkLbFJHXHQu9m",
+        "name": "Wasting Light", "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EG
+        EH ER ES ET FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW
+        GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR
+        KW KY KZ LA LB LC LI LK LR LS LU LY MA MC MD ME MG MH MK ML MM MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG
+        PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SG SH SI SK SL
+        SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA
+        UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Dear Rosemary",
+        "popularity": "0.60847", "external-ids": [{"type": "isrc", "id": "USRW31100005"}],
+        "length": 266.835, "href": "spotify:track:6HeFCUg1F1v0bnE3JFTlxz", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "3"}, {"album": {"released": "2011", "href": "spotify:album:14fsl2kaRIOEDrZvx8gFpn",
+        "name": "Wasting Light (Deluxe Version)", "availability": {"territories":
+        "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HK
+        HN HU ID IE IN IT KR KZ LB LT LU LV MA MT MX MY NA NG NI NL NO PA PE PH PL
+        PT PY RO RU SE SG SK SV TH TN TR TW US UY VE ZA"}}, "name": "These Days",
+        "popularity": "0.60163", "external-ids": [{"type": "isrc", "id": "USRW31100008"}],
+        "length": 298.601, "href": "spotify:track:0qZrIzJYvGba1xfzDbNeyf", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "6"}, {"album": {"released": "1995", "href": "spotify:album:4EnNuo8fG7dMoxMefbApRY",
+        "name": "Foo Fighters", "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE
+        EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT
+        GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RW SA SB SC SD SE SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW TZ
+        UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Big
+        Me", "popularity": "0.53934", "external-ids": [{"type": "isrc", "id": "USRW29500002"}],
+        "length": 133.025, "href": "spotify:track:6pb5BBnIM5IM7R1cqag6rE", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "3"}, {"album": {"released": "2011", "href": "spotify:album:5lnQLEUiVDkLbFJHXHQu9m",
+        "name": "Wasting Light", "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EG
+        EH ER ES ET FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW
+        GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR
+        KW KY KZ LA LB LC LI LK LR LS LU LY MA MC MD ME MG MH MK ML MM MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG
+        PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SG SH SI SK SL
+        SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA
+        UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Back &
+        Forth", "popularity": "0.58800", "external-ids": [{"type": "isrc", "id": "USRW31100009"}],
+        "length": 232.192, "href": "spotify:track:0xMgRt36DpWa7QKNYZy0e4", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "7"}, {"album": {"released": "2011", "href": "spotify:album:14fsl2kaRIOEDrZvx8gFpn",
+        "name": "Wasting Light (Deluxe Version)", "availability": {"territories":
+        "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HK
+        HN HU ID IE IN IT KR KZ LB LT LU LV MA MT MX MY NA NG NI NL NO PA PE PH PL
+        PT PY RO RU SE SG SK SV TH TN TR TW US UY VE ZA"}}, "name": "Bridge Burning",
+        "popularity": "0.58797", "external-ids": [{"type": "isrc", "id": "USRW31100004"}],
+        "length": 286.783, "href": "spotify:track:2soQIPoX1OkseT47iOftr2", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "1"}, {"album": {"released": "1995", "href": "spotify:album:4EnNuo8fG7dMoxMefbApRY",
+        "name": "Foo Fighters", "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE
+        EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT
+        GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RW SA SB SC SD SE SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW TZ
+        UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "I''ll
+        Stick Around", "popularity": "0.53059", "external-ids": [{"type": "isrc",
+        "id": "USRW29500010"}], "length": 232.794, "href": "spotify:track:4LGKzrdEeBwR9UHCGlDT0W",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "2"}, {"album": {"released": "2011", "href":
+        "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "name": "Wasting Light", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "White Limo", "popularity": "0.58592", "external-ids":
+        [{"type": "isrc", "id": "USRW31100006"}], "length": 202.701, "href": "spotify:track:57dem1V7wz8owejklpELCh",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "4"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Skin And Bones", "popularity": "0.58543", "external-ids":
+        [{"type": "isrc", "id": "USRW30600044"}], "length": 242.65, "href": "spotify:track:1eoQNKgUm4dX9nk0876FsL",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "13"}, {"album": {"released": "1995", "href":
+        "spotify:album:4EnNuo8fG7dMoxMefbApRY", "name": "Foo Fighters", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA
+        RE RO RS RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "This Is A Call", "popularity": "0.52616", "external-ids":
+        [{"type": "isrc", "id": "USRW29500014"}], "length": 233.63, "href": "spotify:track:2wO8aOvN1ogLy1N8XT1WJE",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "1"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "This Is A Call", "popularity": "0.58225", "external-ids":
+        [{"type": "isrc", "id": "USRW29500014"}], "length": 233.343, "href": "spotify:track:1KZVbkPnQYwaN5OeAHGa4P",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "12"}, {"album": {"released": "2011", "href":
+        "spotify:album:14fsl2kaRIOEDrZvx8gFpn", "name": "Wasting Light (Deluxe Version)",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY
+        VE ZA"}}, "name": "Rope - deadmau5 mix", "popularity": "0.58021", "external-ids":
+        [{"type": "isrc", "id": "USRW31100019"}], "length": 352.956, "href": "spotify:track:1pbYEdmXxMMQgliPdTK7fX",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "12"}, {"album": {"released": "2011", "href":
+        "spotify:album:14fsl2kaRIOEDrZvx8gFpn", "name": "Wasting Light (Deluxe Version)",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY
+        VE ZA"}}, "name": "Arlandria", "popularity": "0.57595", "external-ids": [{"type":
+        "isrc", "id": "USRW31100007"}], "length": 267.854, "href": "spotify:track:5J5JyV2QG9msOTrOibyCLt",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "5"}, {"album": {"released": "2011", "href":
+        "spotify:album:14fsl2kaRIOEDrZvx8gFpn", "name": "Wasting Light (Deluxe Version)",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY
+        VE ZA"}}, "name": "Dear Rosemary", "popularity": "0.57302", "external-ids":
+        [{"type": "isrc", "id": "USRW31100005"}], "length": 266.835, "href": "spotify:track:2LvUuLo5KB3UB5CZMJxnwG",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "3"}, {"album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Word Forward", "popularity": "0.57246", "external-ids":
+        [{"type": "isrc", "id": "USRW30900001"}], "length": 226.911, "href": "spotify:track:74QDbj3qdHQhofu01RyFtT",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "15"}, {"album": {"released": "2011", "href":
+        "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "name": "Wasting Light", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "I Should Have Known", "popularity": "0.56654",
+        "external-ids": [{"type": "isrc", "id": "USRW31100012"}], "length": 256.011,
+        "href": "spotify:track:042RaY48TNY9aesv8fqYTf", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "10"}, {"album": {"released": "2006",
+        "href": "spotify:album:0nn3RvXC6hjzvSwoBMixg7", "name": "Skin And Bones",
+        "availability": {"territories": "AR AU BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TN TR UY VE ZA"}}, "name":
+        "Times Like These", "popularity": "0.56222", "external-ids": [{"type": "isrc",
+        "id": "USRW30600046"}], "length": 325.687, "href": "spotify:track:7gggcq4riT0xZCfxBd5cNG",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "12"}, {"album": {"released": "2011", "href":
+        "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "name": "Wasting Light", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "A Matter Of Time", "popularity": "0.55932", "external-ids":
+        [{"type": "isrc", "id": "USRW31100010"}], "length": 276.404, "href": "spotify:track:46GHi1UJz1yEumZcMkbJN9",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "8"}, {"album": {"released": "2011", "href":
+        "spotify:album:14fsl2kaRIOEDrZvx8gFpn", "name": "Wasting Light (Deluxe Version)",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY
+        VE ZA"}}, "name": "White Limo", "popularity": "0.55172", "external-ids": [{"type":
+        "isrc", "id": "USRW31100006"}], "length": 202.701, "href": "spotify:track:1QVfTBfHPlNrwTkhrESUix",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "4"}, {"album": {"released": "2011", "href":
+        "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "name": "Wasting Light", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "name": "Miss The Misery", "popularity": "0.55128", "external-ids":
+        [{"type": "isrc", "id": "USRW31100011"}], "length": 272.273, "href": "spotify:track:2u5OWZVjfuS85zTX3t4lbe",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "9"}, {"album": {"released": "1995", "href":
+        "spotify:album:4EnNuo8fG7dMoxMefbApRY", "name": "Foo Fighters", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA
+        RE RO RS RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Good Grief", "popularity": "0.49208", "external-ids":
+        [{"type": "isrc", "id": "USRW29500008"}], "length": 241.5, "href": "spotify:track:2styBKRBhlZwPl5geag8KJ",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "5"}, {"album": {"released": "2007", "href":
+        "spotify:album:2ovXUTjkBkNlgAU7DTIxX9", "name": "Echoes, Silence, Patience
+        & Grace", "availability": {"territories": "AR AT AU BE BO BR BW CH CL CO CR
+        CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA MT MX NA
+        NG NI NL NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "name": "Let
+        It Die", "popularity": "0.54732", "external-ids": [{"type": "isrc", "id":
+        "USRW30700008"}], "length": 245.239, "href": "spotify:track:4sWk6tbgVPkA8OAk0utIz3",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "2"}, {"album": {"released": "2007", "href":
+        "spotify:album:3ilXDEG0xiajK8AbqboeJz", "name": "Echoes, Silence, Patience
+        & Grace", "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR
+        AZ BA BB BD BF BG BH BI BJ BM BN BO BR BS BT BY BZ CD CF CG CI CK CL CM CN
+        CO CR CU CV CZ DJ DM DO EC EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL
+        GM GN GP GQ GT GU GW GY HK HN HR HT ID IE IL IN IO IQ IR IS JM JO KE KG KH
+        KI KM KN KP KR KW KY KZ LA LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO
+        MP MQ MR MS MU MV MW MX MY MZ NC NE NI NP NR NU OM PA PE PF PG PH PK PM PN
+        PR PS PW PY QA RE RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY
+        SZ TC TD TF TG TH TJ TK TL TM TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG
+        VN VU WF WS YE YT ZM ZW ZZ"}}, "name": "The Pretender", "popularity": "0.54656",
+        "external-ids": [{"type": "isrc", "id": "USRW30700007"}], "length": 269.658,
+        "href": "spotify:track:7x8dCjCr0x6x2lXKujYD34", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "1"}, {"album": {"released": "1997",
+        "href": "spotify:album:6t0KW8iHL9e8Q60nW5KYsR", "name": "The Colour And The
+        Shape", "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR
+        AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG
+        CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET
+        FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN
+        HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ
+        LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR
+        MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH
+        PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL
+        SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA
+        UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Everlong",
+        "popularity": "0.54518", "external-ids": [{"type": "isrc", "id": "USRW29600011"}],
+        "length": 250.049, "href": "spotify:track:6u47WBqEuowycc48t2Wekx", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "11"}, {"album": {"released": "1995", "href": "spotify:album:4EnNuo8fG7dMoxMefbApRY",
+        "name": "Foo Fighters", "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE
+        EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT
+        GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RW SA SB SC SD SE SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW TZ
+        UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Alone
+        + Easy Target", "popularity": "0.48719", "external-ids": [{"type": "isrc",
+        "id": "USRW29500001"}], "length": 245.945, "href": "spotify:track:5XUpAb2zC8G404RPkwb09H",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "4"}, {"album": {"released": "2011", "href":
+        "spotify:album:14fsl2kaRIOEDrZvx8gFpn", "name": "Wasting Light (Deluxe Version)",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY
+        VE ZA"}}, "name": "Back & Forth", "popularity": "0.53822", "external-ids":
+        [{"type": "isrc", "id": "USRW31100009"}], "length": 232.192, "href": "spotify:track:7g0bEBVTVpN8nBxYQ2IQjG",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "7"}, {"album": {"released": "1995", "href":
+        "spotify:album:4EnNuo8fG7dMoxMefbApRY", "name": "Foo Fighters", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA
+        RE RO RS RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "For All The Cows", "popularity": "0.48046",
+        "external-ids": [{"type": "isrc", "id": "USRW29500005"}], "length": 209.473,
+        "href": "spotify:track:6CbeOOrDFQuY1tXYscKqZQ", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "9"}, {"album": {"released": "2011",
+        "href": "spotify:album:14fsl2kaRIOEDrZvx8gFpn", "name": "Wasting Light (Deluxe
+        Version)", "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN
+        CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT
+        LU LV MA MT MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN
+        TR TW US UY VE ZA"}}, "name": "I Should Have Known", "popularity": "0.53517",
+        "external-ids": [{"type": "isrc", "id": "USRW31100012"}], "length": 256.011,
+        "href": "spotify:track:5pZvElOhhC7VGEBMys5hEc", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "10"}, {"album": {"released": "2011",
+        "href": "spotify:album:3znMqtWNAwxgkZQuSraan9", "name": "Rope", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AZ BA BB BD BE BF BG BH
+        BI BJ BM BN BO BR BS BT BW BY BZ CD CF CG CI CK CL CM CN CO CR CU CV CY CZ
+        DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI
+        GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM
+        JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC
+        MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MY MZ NC NE NG NI NL NO
+        NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA
+        SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM
+        TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        "name": "Rope", "popularity": "0.53498", "external-ids": [{"type": "isrc",
+        "id": "USRW31100001"}], "length": 259.305, "href": "spotify:track:0iYXPfnVgrK155NXTgntxo",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "1"}, {"album": {"released": "1997", "href":
+        "spotify:album:6t0KW8iHL9e8Q60nW5KYsR", "name": "The Colour And The Shape",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU
+        ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC
+        LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU
+        MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM
+        PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO
+        SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ
+        VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Monkey Wrench", "popularity":
+        "0.53403", "external-ids": [{"type": "isrc", "id": "USRW29600001"}], "length":
+        231.434, "href": "spotify:track:0Y6LOyCGL6AgWDc0zGcLKt", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "2"}, {"album": {"released": "2007", "href": "spotify:album:3ilXDEG0xiajK8AbqboeJz",
+        "name": "Echoes, Silence, Patience & Grace", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AZ BA BB BD BF BG BH BI BJ BM BN BO BR BS
+        BT BY BZ CD CF CG CI CK CL CM CN CO CR CU CV CZ DJ DM DO EC EG EH ER ET FJ
+        FK FM FO GA GB GD GE GF GH GI GL GM GN GP GQ GT GU GW GY HK HN HR HT ID IE
+        IL IN IO IQ IR IS JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LC LI LK LR LS
+        LY MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MU MV MW MX MY MZ NC NE NI NP
+        NR NU OM PA PE PF PG PH PK PM PN PR PS PW PY QA RE RS RU RW SA SB SC SD SG
+        SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TO TR TT TV
+        TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZM ZW ZZ"}}, "name": "Let
+        It Die", "popularity": "0.53359", "external-ids": [{"type": "isrc", "id":
+        "USRW30700008"}], "length": 245.239, "href": "spotify:track:2XvrMHbSO077Ajg7QTTNdY",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "2"}, {"album": {"released": "2007", "href":
+        "spotify:album:2ovXUTjkBkNlgAU7DTIxX9", "name": "Echoes, Silence, Patience
+        & Grace", "availability": {"territories": "AR AT AU BE BO BR BW CH CL CO CR
+        CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA MT MX NA
+        NG NI NL NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "name": "Stranger
+        Things Have Happened", "popularity": "0.53352", "external-ids": [{"type":
+        "isrc", "id": "USRW30700012"}], "length": 321.399, "href": "spotify:track:5IgzL1X4GhuoVTmtQ1zZQP",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "6"}, {"album": {"released": "2003", "href":
+        "spotify:album:6mulYcpWRDAiv7KIouWvyP", "name": "ONE BY ONE", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+        NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW
+        PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Times Like These", "popularity": "0.53091",
+        "external-ids": [{"type": "isrc", "id": "USRW30200005"}], "length": 265.946,
+        "href": "spotify:track:2vLGMSMrBcOpJcveRvp0j6", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "4"}, {"album": {"released": "2007",
+        "href": "spotify:album:2ovXUTjkBkNlgAU7DTIxX9", "name": "Echoes, Silence,
+        Patience & Grace", "availability": {"territories": "AR AT AU BE BO BR BW CH
+        CL CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA
+        MT MX NA NG NI NL NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "name":
+        "Home", "popularity": "0.52804", "external-ids": [{"type": "isrc", "id": "USRW30700018"}],
+        "length": 293.006, "href": "spotify:track:7mCjnfGC7XtQ9oRzMdT3Q5", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "12"}, {"album": {"released": "2011", "href": "spotify:album:14fsl2kaRIOEDrZvx8gFpn",
+        "name": "Wasting Light (Deluxe Version)", "availability": {"territories":
+        "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HK
+        HN HU ID IE IN IT KR KZ LB LT LU LV MA MT MX MY NA NG NI NL NO PA PE PH PL
+        PT PY RO RU SE SG SK SV TH TN TR TW US UY VE ZA"}}, "name": "A Matter Of Time",
+        "popularity": "0.52573", "external-ids": [{"type": "isrc", "id": "USRW31100010"}],
+        "length": 276.404, "href": "spotify:track:2RAtTMH6XtCefJP3A5fCkj", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "8"}, {"album": {"released": "2003", "href": "spotify:album:02jqf49ws9bcTvXLPGtjbT",
+        "name": "In Your Honour", "availability": {"territories": "AD AE AF AG AI
+        AL AM AN AO AQ AR AT AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE
+        EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT
+        GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM
+        MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP NR NU OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH
+        SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TJ TK TL TM TN TO TR TT TV TZ
+        UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "DOA", "popularity":
+        "0.52338", "external-ids": [{"type": "isrc", "id": "USRW30500008"}], "length":
+        252.376, "href": "spotify:track:03AIRTc1MIGDa4Lpnp0pqP", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "4"}, {"album": {"released": "1995", "href": "spotify:album:4EnNuo8fG7dMoxMefbApRY",
+        "name": "Foo Fighters", "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE
+        EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT
+        GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RW SA SB SC SD SE SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW TZ
+        UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Floaty",
+        "popularity": "0.46550", "external-ids": [{"type": "isrc", "id": "USRW29500004"}],
+        "length": 269.554, "href": "spotify:track:5tULmRxZrbnzh32H3ZIghu", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "6"}, {"album": {"released": "1997", "href": "spotify:album:6t0KW8iHL9e8Q60nW5KYsR",
+        "name": "The Colour And The Shape", "availability": {"territories": "AD AE
+        AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR
+        BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM
+        DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN
+        GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP
+        NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA
+        SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL
+        TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW
+        ZZ"}}, "name": "My Hero", "popularity": "0.52140", "external-ids": [{"type":
+        "isrc", "id": "USRW29600007"}], "length": 260.612, "href": "spotify:track:44NOhlESrtoF3YCmaaRPWe",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "7"}, {"album": {"released": "2011", "href":
+        "spotify:album:14fsl2kaRIOEDrZvx8gFpn", "name": "Wasting Light (Deluxe Version)",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY
+        VE ZA"}}, "name": "Miss The Misery", "popularity": "0.52057", "external-ids":
+        [{"type": "isrc", "id": "USRW31100011"}], "length": 272.273, "href": "spotify:track:2HI7NJhgxsxMVWtLNAmkxh",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "9"}, {"album": {"released": "2006", "href":
+        "spotify:album:0nn3RvXC6hjzvSwoBMixg7", "name": "Skin And Bones", "availability":
+        {"territories": "AR AU BE BO BR BW CA CH CL CN CO CR CY CZ DE DK DZ EC EE
+        ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT MX NA NG NI NL
+        NO PA PE PH PL PT PY RO RU SE SG SK SV TN TR UY VE ZA"}}, "name": "My Hero",
+        "popularity": "0.51904", "external-ids": [{"type": "isrc", "id": "USRW30600039"}],
+        "length": 291.385, "href": "spotify:track:5oCMnpuRd3rUL9clNWbjr0", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "5"}, {"album": {"released": "1995", "href": "spotify:album:4EnNuo8fG7dMoxMefbApRY",
+        "name": "Foo Fighters", "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE
+        EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT
+        GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RW SA SB SC SD SE SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW TZ
+        UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Weenie
+        Beenie", "popularity": "0.46162", "external-ids": [{"type": "isrc", "id":
+        "USRW29500015"}], "length": 165.601, "href": "spotify:track:5FafTKnxl219ZUWFzaufRQ",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "7"}, {"album": {"released": "2005", "href":
+        "spotify:album:2eprpJCYbCbPZRKVGIEJxZ", "name": "In Your Honor", "availability":
+        {"territories": "AR AT BO BR CA CH CL CR DE GT HN MX NI PA PY SV US UY"}},
+        "name": "Best Of You", "popularity": "0.51369", "external-ids": [{"type":
+        "isrc", "id": "USRW30500001"}], "length": 255.906, "href": "spotify:track:5FZxsHWIvUsmSK1IAvm2pp",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "3"}, {"album": {"released": "1995", "href":
+        "spotify:album:4EnNuo8fG7dMoxMefbApRY", "name": "Foo Fighters", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA
+        RE RO RS RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "X-Static", "popularity": "0.45589", "external-ids":
+        [{"type": "isrc", "id": "USRW29500016"}], "length": 253.788, "href": "spotify:track:7rKm5BfLqxYko007wiamnm",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "10"}, {"album": {"released": "2007", "href":
+        "spotify:album:2ovXUTjkBkNlgAU7DTIxX9", "name": "Echoes, Silence, Patience
+        & Grace", "availability": {"territories": "AR AT AU BE BO BR BW CH CL CO CR
+        CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA MT MX NA
+        NG NI NL NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "name": "Come
+        Alive", "popularity": "0.51201", "external-ids": [{"type": "isrc", "id": "USRW30700011"}],
+        "length": 310.941, "href": "spotify:track:0TH91AsvYP9Hy7RvPkZU6M", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "5"}, {"album": {"released": "2005", "href": "spotify:album:2eprpJCYbCbPZRKVGIEJxZ",
+        "name": "In Your Honor", "availability": {"territories": "AR AT BO BR CA CH
+        CL CR DE GT HN MX NI PA PY SV US UY"}}, "name": "DOA", "popularity": "0.51166",
+        "external-ids": [{"type": "isrc", "id": "USRW30500008"}], "length": 252.376,
+        "href": "spotify:track:1QZFn6QUNHfCp8s06C91hw", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "4"}, {"album": {"released": "2007",
+        "href": "spotify:album:2ovXUTjkBkNlgAU7DTIxX9", "name": "Echoes, Silence,
+        Patience & Grace", "availability": {"territories": "AR AT AU BE BO BR BW CH
+        CL CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA
+        MT MX NA NG NI NL NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "name":
+        "Long Road To Ruin", "popularity": "0.51156", "external-ids": [{"type": "isrc",
+        "id": "USRW30700010"}], "length": 225.133, "href": "spotify:track:5zQK2XSbDptYdGDgxI7E0d",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "4"}, {"album": {"released": "1995", "href":
+        "spotify:album:4EnNuo8fG7dMoxMefbApRY", "name": "Foo Fighters", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA
+        RE RO RS RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Exhausted", "popularity": "0.45431", "external-ids":
+        [{"type": "isrc", "id": "USRW29500003"}], "length": 350.263, "href": "spotify:track:5EwyzrFLXlcnPenrPQ9DlO",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "12"}, {"album": {"released": "1995", "href":
+        "spotify:album:4EnNuo8fG7dMoxMefbApRY", "name": "Foo Fighters", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA
+        RE RO RS RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Wattershed", "popularity": "0.45258", "external-ids":
+        [{"type": "isrc", "id": "USRW29500017"}], "length": 133.678, "href": "spotify:track:7lMGc58V3S7lD2SLNRdOKx",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "11"}, {"album": {"released": "2011", "href":
+        "spotify:album:14fsl2kaRIOEDrZvx8gFpn", "name": "Wasting Light (Deluxe Version)",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY
+        VE ZA"}}, "name": "Better Off", "popularity": "0.50795", "external-ids": [{"type":
+        "isrc", "id": "USRW31100020"}], "length": 252.716, "href": "spotify:track:2TwWcm0UqFWzTKFbGBKoA7",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "13"}, {"album": {"released": "2003", "href":
+        "spotify:album:02jqf49ws9bcTvXLPGtjbT", "name": "In Your Honour", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA BB BD BE BF BG
+        BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU
+        CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD
+        GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ
+        IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC
+        NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TJ TK TL TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT
+        ZA ZM ZW ZZ"}}, "name": "No Way Back", "popularity": "0.50661", "external-ids":
+        [{"type": "isrc", "id": "USRW30500007"}], "length": 196.818, "href": "spotify:track:5qst0RIoHJHiGJ5G85bL1H",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "2"}, {"album": {"released": "2003", "href":
+        "spotify:album:02jqf49ws9bcTvXLPGtjbT", "name": "In Your Honour", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA BB BD BE BF BG
+        BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU
+        CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD
+        GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ
+        IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC
+        NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TJ TK TL TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT
+        ZA ZM ZW ZZ"}}, "name": "Best Of You", "popularity": "0.50593", "external-ids":
+        [{"type": "isrc", "id": "USRW30500001"}], "length": 255.906, "href": "spotify:track:35eI7JN7aJ9lkCUgcPWn4h",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "3"}, {"album": {"released": "1995", "href":
+        "spotify:album:4EnNuo8fG7dMoxMefbApRY", "name": "Foo Fighters", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA
+        RE RO RS RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "name": "Oh, George", "popularity": "0.44831", "external-ids":
+        [{"type": "isrc", "id": "USRW29500011"}], "length": 182.02, "href": "spotify:track:1Oy0vCHc4rUCOphROBbPSd",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "8"}, {"album": {"released": "2006", "href":
+        "spotify:album:4IBQvwIbtDluogvDe2qpaB", "name": "Skin And Bones", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BF BG
+        BH BI BJ BM BN BO BR BS BT BY BZ CA CD CF CG CH CI CK CL CM CO CR CU CV DE
+        DJ DM DO EC EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL GM GN GP GQ GT
+        GU GW GY HN HR HT IE IL IO IQ IR IS JM JO KE KG KH KI KM KN KP KW KY KZ LA
+        LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MU MV MW MX MY
+        MZ NA NC NE NI NP NR NU NZ OM PA PE PF PG PK PM PN PR PS PW PY QA RE RS RU
+        RW SA SB SC SD SH SI SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM
+        TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZM ZW ZZ"}}, "name":
+        "Times Like These", "popularity": "0.50132", "external-ids": [{"type": "isrc",
+        "id": "USRW30600046"}], "length": 325.687, "href": "spotify:track:06s6aloy62vytl3MnT6gfl",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "12"}, {"album": {"released": "2003", "href":
+        "spotify:album:6mulYcpWRDAiv7KIouWvyP", "name": "ONE BY ONE", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+        NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW
+        PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Low", "popularity": "0.50039", "external-ids":
+        [{"type": "isrc", "id": "USRW30200003"}], "length": 268.325, "href": "spotify:track:1lEh8FfgIuT94pBzCObIUb",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "2"}, {"album": {"released": "1997", "href":
+        "spotify:album:6t0KW8iHL9e8Q60nW5KYsR", "name": "The Colour And The Shape",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU
+        ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC
+        LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU
+        MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM
+        PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO
+        SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ
+        VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Hey, Johnny Park!",
+        "popularity": "0.49870", "external-ids": [{"type": "isrc", "id": "USRW29600003"}],
+        "length": 248.978, "href": "spotify:track:1352ab20uMPsZR0SbEbFuI", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "3"}, {"album": {"released": "2003", "href": "spotify:album:02jqf49ws9bcTvXLPGtjbT",
+        "name": "In Your Honour", "availability": {"territories": "AD AE AF AG AI
+        AL AM AN AO AQ AR AT AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE
+        EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT
+        GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM
+        MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP NR NU OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH
+        SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TJ TK TL TM TN TO TR TT TV TZ
+        UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "In Your
+        Honor", "popularity": "0.49818", "external-ids": [{"type": "isrc", "id": "USRW30500025"}],
+        "length": 230.362, "href": "spotify:track:1GzQuGJ3s4IbcJ2wElWShy", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "1"}, {"album": {"released": "2007", "href": "spotify:album:2ovXUTjkBkNlgAU7DTIxX9",
+        "name": "Echoes, Silence, Patience & Grace", "availability": {"territories":
+        "AR AT AU BE BO BR BW CH CL CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU
+        IE IT KZ LB LT LU LV MA MT MX NA NG NI NL NO NZ PA PE PL PT PY RO RU SE SK
+        SV TN TR UY VE ZA"}}, "name": "Erase\/Replace", "popularity": "0.49821", "external-ids":
+        [{"type": "isrc", "id": "USRW30700009"}], "length": 253.422, "href": "spotify:track:4iohc0bMy40gYh58rGCkFU",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "3"}, {"album": {"released": "2007", "href":
+        "spotify:album:3ilXDEG0xiajK8AbqboeJz", "name": "Echoes, Silence, Patience
+        & Grace", "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR
+        AZ BA BB BD BF BG BH BI BJ BM BN BO BR BS BT BY BZ CD CF CG CI CK CL CM CN
+        CO CR CU CV CZ DJ DM DO EC EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL
+        GM GN GP GQ GT GU GW GY HK HN HR HT ID IE IL IN IO IQ IR IS JM JO KE KG KH
+        KI KM KN KP KR KW KY KZ LA LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO
+        MP MQ MR MS MU MV MW MX MY MZ NC NE NI NP NR NU OM PA PE PF PG PH PK PM PN
+        PR PS PW PY QA RE RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY
+        SZ TC TD TF TG TH TJ TK TL TM TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG
+        VN VU WF WS YE YT ZM ZW ZZ"}}, "name": "Stranger Things Have Happened", "popularity":
+        "0.49639", "external-ids": [{"type": "isrc", "id": "USRW30700012"}], "length":
+        321.399, "href": "spotify:track:7zaZlzl0XhthNwH3GQcyZ0", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "6"}, {"album": {"released": "1997", "href": "spotify:album:6t0KW8iHL9e8Q60nW5KYsR",
+        "name": "The Colour And The Shape", "availability": {"territories": "AD AE
+        AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR
+        BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM
+        DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN
+        GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP
+        NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA
+        SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL
+        TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW
+        ZZ"}}, "name": "Walking After You", "popularity": "0.49485", "external-ids":
+        [{"type": "isrc", "id": "USRW29600012"}], "length": 305.006, "href": "spotify:track:0gzrErMqfoQhuc8FCIzSwP",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "12"}, {"album": {"released": "2007", "href":
+        "spotify:album:2ovXUTjkBkNlgAU7DTIxX9", "name": "Echoes, Silence, Patience
+        & Grace", "availability": {"territories": "AR AT AU BE BO BR BW CH CL CO CR
+        CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA MT MX NA
+        NG NI NL NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "name": "But,
+        Honestly", "popularity": "0.49413", "external-ids": [{"type": "isrc", "id":
+        "USRW30700017"}], "length": 276.011, "href": "spotify:track:3rxo8KsF6AwfnbLNh7JciD",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "11"}, {"album": {"released": "2010", "href":
+        "spotify:album:30ly6F6Xl0TKmyBCU50Khv", "name": "The Colour And The Shape",
+        "availability": {"territories": "US"}}, "name": "Monkey Wrench", "popularity":
+        "0.49167", "external-ids": [{"type": "isrc", "id": "USRW29600001"}], "length":
+        231.748, "href": "spotify:track:44wXefe8WB9Fd6xwtmAwbR", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "2"}, {"album": {"released": "2006", "href": "spotify:album:0nn3RvXC6hjzvSwoBMixg7",
+        "name": "Skin And Bones", "availability": {"territories": "AR AU BE BO BR
+        BW CA CH CL CN CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN
+        IT KR KZ LB LT LU LV MA MT MX NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG
+        SK SV TN TR UY VE ZA"}}, "name": "Everlong", "popularity": "0.48857", "external-ids":
+        [{"type": "isrc", "id": "USRW30600049"}], "length": 395.677, "href": "spotify:track:4MOHOrZFnYeNcSGSl6UyPn",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "15"}, {"album": {"released": "2006", "href":
+        "spotify:album:4IBQvwIbtDluogvDe2qpaB", "name": "Skin And Bones", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BF BG
+        BH BI BJ BM BN BO BR BS BT BY BZ CA CD CF CG CH CI CK CL CM CO CR CU CV DE
+        DJ DM DO EC EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL GM GN GP GQ GT
+        GU GW GY HN HR HT IE IL IO IQ IR IS JM JO KE KG KH KI KM KN KP KW KY KZ LA
+        LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MU MV MW MX MY
+        MZ NA NC NE NI NP NR NU NZ OM PA PE PF PG PK PM PN PR PS PW PY QA RE RS RU
+        RW SA SB SC SD SH SI SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM
+        TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZM ZW ZZ"}}, "name":
+        "My Hero", "popularity": "0.48670", "external-ids": [{"type": "isrc", "id":
+        "USRW30600039"}], "length": 291.385, "href": "spotify:track:0GE8sVpRYoMamNcfLGObxY",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "5"}, {"album": {"released": "2003", "href":
+        "spotify:album:6mulYcpWRDAiv7KIouWvyP", "name": "ONE BY ONE", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+        NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW
+        PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Tired Of You", "popularity": "0.48527",
+        "external-ids": [{"type": "isrc", "id": "USRW30200007"}], "length": 311.595,
+        "href": "spotify:track:17IGISO6bhBzZDErMUUsPF", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "6"}, {"album": {"released": "2003",
+        "href": "spotify:album:02jqf49ws9bcTvXLPGtjbT", "name": "In Your Honour",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TJ TK TL TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Virginia Moon", "popularity": "0.48499",
+        "external-ids": [{"type": "isrc", "id": "USRW30500022"}], "length": 229.369,
+        "href": "spotify:track:38PQdZh9J5RiqyKiJGsSjv", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "8"}, {"album": {"released": "2007",
+        "href": "spotify:album:2ovXUTjkBkNlgAU7DTIxX9", "name": "Echoes, Silence,
+        Patience & Grace", "availability": {"territories": "AR AT AU BE BO BR BW CH
+        CL CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA
+        MT MX NA NG NI NL NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "name":
+        "Cheer Up, Boys (Your Make Up Is Running)", "popularity": "0.48315", "external-ids":
+        [{"type": "isrc", "id": "USRW30700013"}], "length": 221.421, "href": "spotify:track:3Ux0LuhatthSa1VbccxX8k",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "7"}, {"album": {"released": "1997", "href":
+        "spotify:album:3woBtPnPoZx6mtJWau0PDf", "name": "The Colour And The Shape
+        (Special Edition)", "availability": {"territories": "AR AU BO CL CN HK ID
+        IN KR KZ MY PH PL PY RU SG TH TW US UY"}}, "name": "Everlong", "popularity":
+        "0.48165", "external-ids": [{"type": "isrc", "id": "USRW29600011"}], "length":
+        250.442, "href": "spotify:track:53Hic0gf2TABaSEXXhSgij", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "11"}, {"album": {"released": "1999", "href": "spotify:album:6mowBvm0JLUKqh7rLe6LhI",
+        "name": "There Is Nothing Left To Lose", "availability": {"territories": "AD
+        AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO
+        BR BS BT BW BY BZ CD CF CG CH CI CK CL CM CR CU CV CY CZ DE DJ DK DM DO DZ
+        EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR
+        GT GU GW GY HN HR HT HU IE IL IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KW
+        KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PF PG PK
+        PL PM PN PR PS PT PW PY QA RE RO RS RW SA SB SC SD SE SH SI SK SL SM SN SO
+        SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW TZ UA UG UY UZ VA
+        VC VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Learn To Fly", "popularity":
+        "0.48140", "external-ids": [{"type": "isrc", "id": "USRW39900002"}], "length":
+        235.565, "href": "spotify:track:4tjBDR8r3kxBXxQPeRTQgu", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "3"}, {"album": {"released": "2006", "href": "spotify:album:0nn3RvXC6hjzvSwoBMixg7",
+        "name": "Skin And Bones", "availability": {"territories": "AR AU BE BO BR
+        BW CA CH CL CN CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN
+        IT KR KZ LB LT LU LV MA MT MX NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG
+        SK SV TN TR UY VE ZA"}}, "name": "Best Of You", "popularity": "0.48114", "external-ids":
+        [{"type": "isrc", "id": "USRW30600048"}], "length": 302.941, "href": "spotify:track:4JfhB9Kr0y2Gu0VNL79Dz1",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "14"}, {"album": {"released": "2007", "href":
+        "spotify:album:3ilXDEG0xiajK8AbqboeJz", "name": "Echoes, Silence, Patience
+        & Grace", "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR
+        AZ BA BB BD BF BG BH BI BJ BM BN BO BR BS BT BY BZ CD CF CG CI CK CL CM CN
+        CO CR CU CV CZ DJ DM DO EC EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL
+        GM GN GP GQ GT GU GW GY HK HN HR HT ID IE IL IN IO IQ IR IS JM JO KE KG KH
+        KI KM KN KP KR KW KY KZ LA LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO
+        MP MQ MR MS MU MV MW MX MY MZ NC NE NI NP NR NU OM PA PE PF PG PH PK PM PN
+        PR PS PW PY QA RE RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY
+        SZ TC TD TF TG TH TJ TK TL TM TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG
+        VN VU WF WS YE YT ZM ZW ZZ"}}, "name": "Come Alive", "popularity": "0.48069",
+        "external-ids": [{"type": "isrc", "id": "USRW30700011"}], "length": 310.941,
+        "href": "spotify:track:4P4s2KHOw0uISbLI3zkHtD", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "track-number": "5"}, {"album": {"released": "2005",
+        "href": "spotify:album:2eprpJCYbCbPZRKVGIEJxZ", "name": "In Your Honor", "availability":
+        {"territories": "AR AT BO BR CA CH CL CR DE GT HN MX NI PA PY SV US UY"}},
+        "name": "No Way Back", "popularity": "0.47944", "external-ids": [{"type":
+        "isrc", "id": "USRW30500007"}], "length": 196.818, "href": "spotify:track:2MKEQhvPb2VaJXjx5X8Yg6",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "2"}, {"album": {"released": "2007", "href":
+        "spotify:album:2ovXUTjkBkNlgAU7DTIxX9", "name": "Echoes, Silence, Patience
+        & Grace", "availability": {"territories": "AR AT AU BE BO BR BW CH CL CO CR
+        CY CZ DE DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA MT MX NA
+        NG NI NL NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "name": "Summer''s
+        End", "popularity": "0.47939", "external-ids": [{"type": "isrc", "id": "USRW30700014"}],
+        "length": 278.286, "href": "spotify:track:5aWcZ0q3LfnYBAJTUQyBfH", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "8"}, {"album": {"released": "2003", "href": "spotify:album:02jqf49ws9bcTvXLPGtjbT",
+        "name": "In Your Honour", "availability": {"territories": "AD AE AF AG AI
+        AL AM AN AO AQ AR AT AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE
+        EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT
+        GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM
+        MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP NR NU OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH
+        SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TJ TK TL TM TN TO TR TT TV TZ
+        UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "name": "Miracle",
+        "popularity": "0.47931", "external-ids": [{"type": "isrc", "id": "USRW30500017"}],
+        "length": 209.839, "href": "spotify:track:2rV3jfOWlnRqhtLidDosfe", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "track-number": "3"}, {"album": {"released": "2010", "href": "spotify:album:30ly6F6Xl0TKmyBCU50Khv",
+        "name": "The Colour And The Shape", "availability": {"territories": "US"}},
+        "name": "Everlong", "popularity": "0.47515", "external-ids": [{"type": "isrc",
+        "id": "USRW29600011"}], "length": 250.834, "href": "spotify:track:5UWwZ5lm5PKu6eKsHAGxOk",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "track-number": "11"}, {"album": {"released": "1997", "href":
+        "spotify:album:3woBtPnPoZx6mtJWau0PDf", "name": "The Colour And The Shape
+        (Special Edition)", "availability": {"territories": "AR AU BO CL CN HK ID
+        IN KR KZ MY PH PL PY RU SG TH TW US UY"}}, "name": "My Hero", "popularity":
+        "0.47376", "external-ids": [{"type": "isrc", "id": "USRW29600007"}], "length":
+        260.089, "href": "spotify:track:0BkxuWDGOf8d0m6HG9XmeM", "artists": [{"href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}], "track-number":
+        "7"}]}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 12:47:48 GMT
+recorded_with: VCR 2.3.0

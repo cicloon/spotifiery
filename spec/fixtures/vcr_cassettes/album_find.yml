@@ -1,0 +1,816 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ws.spotify.com/search/1/album.json?page=1&q=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 12:34:54 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 12:22:45 GMT
+      Last-Modified:
+      - Wed, 05 Dec 2012 23:38:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '110'
+      X-Varnish:
+      - 1826052141 1826021522
+      Age:
+      - '729'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"info": {"num_results": 0, "limit": 100, "offset": 0, "query": "",
+        "type": "album", "page": 1}, "albums": []}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 12:34:54 GMT
+- request:
+    method: get
+    uri: http://ws.spotify.com/search/1/album.json?page=1&q=Greatest%20Hits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 12:47:46 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 12:47:46 GMT
+      Last-Modified:
+      - Wed, 05 Dec 2012 23:38:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '57745'
+      X-Varnish:
+      - '1826087508'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"info": {"num_results": 7805, "limit": 100, "offset": 0, "query":
+        "Greatest Hits", "type": "album", "page": 1}, "albums": [{"name": "Greatest
+        Hits", "popularity": "0.83761", "external-ids": [{"type": "upc", "id": "884977373295"}],
+        "href": "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}], "availability": {"territories": "AD AE AF AG AI
+        AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW
+        BY BZ CA CD CF CG CH CI CK CL CM CN CR CU CV CY CZ DE DJ DK DM DO DZ EE EG
+        EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU
+        GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP
+        KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH
+        SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV
+        TW TZ UA UG US UY UZ VA VC VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Greatest
+        Hits", "popularity": "0.78762", "external-ids": [{"type": "upc", "id": "00602527583648"}],
+        "href": "spotify:album:6VAFbY1kcBF748xSyyisxY", "artists": [{"href": "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d",
+        "name": "Queen"}], "availability": {"territories": "AT AU BE CH CN CZ DE DK
+        EE ES FI FR GB HK HR HU IE IL IN IT LT LU LV MY NL NO NZ PL PT RU SE SG SK
+        TH TR TW UA ZA"}}, {"name": "Greatest Hits", "popularity": "0.78626", "external-ids":
+        [{"type": "upc", "id": "093624950646"}], "href": "spotify:album:2WoUUsCVsbg9gnFK7dzyUz",
+        "artists": [{"href": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5", "name": "Red
+        Hot Chili Peppers"}], "availability": {"territories": "AD AI AL AM AT AU AW
+        AX AZ BA BE BG BM BV BY CA CH CY CZ DE DK EE ES FI FK FO FR GB GE GF GG GI
+        GL GP GR GS HR HU IE IM IO IS IT JE KY LI LT LU LV MC MD ME MK MQ MS MT NC
+        NL NO NZ PF PL PM PN PT RE RO RS RU SE SH SI SJ SK SM TC TF TR UA US VA VG
+        WF YT"}}, {"name": "Greatest Hits II", "popularity": "0.77069", "external-ids":
+        [{"type": "upc", "id": "884977488647"}], "href": "spotify:album:2d4eS9a7DRTlfeTKVJQ0kr",
+        "artists": [{"href": "spotify:artist:3grHWM9bx2E9vwJCdlRv9O", "name": "Kenny
+        Chesney"}], "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ
+        AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF
+        CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES
+        ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK
+        HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY
+        KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG
+        PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ
+        UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Greatest
+        Hits...So Far!!!", "popularity": "0.77770", "external-ids": [{"type": "upc",
+        "id": "884977777345"}], "href": "spotify:album:3nR5vEcIp8UzOJgkw8G8yX", "artists":
+        [{"href": "spotify:artist:1KCSPY1glIKqW2TotWuXOR", "name": "P!nk"}], "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AZ BA BB BD BE BF BG BH
+        BI BJ BM BN BO BR BS BT BW BY BZ CD CF CG CI CK CL CM CN CO CR CU CV CY CZ
+        DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI
+        GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM
+        JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC
+        MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI
+        NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU
+        RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA
+        ZM ZW ZZ"}}, {"name": "Greatest Hits", "popularity": "0.75076", "external-ids":
+        [{"type": "upc", "id": "075992580168"}], "href": "spotify:album:0LfM3PGkXE6KvJEE1HkOnz",
+        "artists": [{"href": "spotify:artist:08GQAI4eElDnROBrJRGE0X", "name": "Fleetwood
+        Mac"}], "availability": {"territories": "AD AI AL AM AT AU AW AX AZ BA BE
+        BG BM BV BY CA CH CY CZ DE DK EE ES FI FK FO FR GB GE GF GG GI GL GP GR GS
+        HR HU IE IM IO IS IT JE KY LI LT LU LV MC MD ME MK MQ MS MT NC NL NO NZ PF
+        PL PM PN PT RE RO RS RU SE SH SI SJ SK SM TC TF TR UA US VA VG WF YT"}}, {"name":
+        "Greatest Hits Volume One - The Singles", "popularity": "0.78791", "external-ids":
+        [{"type": "upc", "id": "093624997450"}], "href": "spotify:album:0UccZZgelTAbbk3OSPZymO",
+        "artists": [{"href": "spotify:artist:2sil8z5kiy4r76CRTXxBCA", "name": "The
+        Goo Goo Dolls"}], "availability": {"territories": "AD AI AL AM AT AU AZ BA
+        BE BG BM BV BY CA CH CY CZ DE DK EE ES FI FO FR GB GF GI GL GR HR HU IE IS
+        IT KY LI LT LU LV MC MD ME MK MT NL NO NZ PL PT RO RS RU SE SI SJ SK SM TR
+        UA US VA VG"}}, {"name": "Greatest Hits", "popularity": "0.74715", "external-ids":
+        [{"type": "upc", "id": "00602498621080"}], "href": "spotify:album:32OnHglDZr3RRIAyDVoApX",
+        "artists": [{"href": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC", "name": "Guns
+        N'' Roses"}], "availability": {"territories": "AT AU BE CH CN CZ DE DK EE
+        ES FI FR GB HR HU IE IL IN IT LT LV NL NO NZ PL PT RU SE SK TR UA ZA"}}, {"name":
+        "Greatest Hits...So Far!!!", "popularity": "0.76659", "external-ids": [{"type":
+        "upc", "id": "884977774177"}], "href": "spotify:album:2tUn9E3nHXhUIJ47yv6ePD",
+        "artists": [{"href": "spotify:artist:1KCSPY1glIKqW2TotWuXOR", "name": "P!nk"}],
+        "availability": {"territories": "CA MX US"}}, {"artists": [{"href": "spotify:artist:5gznATMVO85ZcLTkE9ULU7",
+        "name": "Lenny Kravitz"}], "href": "spotify:album:1cW0de5T5fdedlS4YqvyCv",
+        "availability": {"territories": "AD AE AG AI AL AM AN AO AQ AR AS AT AU AW
+        AX AZ BA BB BD BE BF BG BH BI BJ BL BN BO BR BS BT BV BW BY BZ CA CC CD CF
+        CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER
+        ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GM GN GP GQ GR GS GT GU GW
+        GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO KE KH KI KM KN
+        KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH ML MN
+        MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM
+        PA PE PF PG PH PK PL PM PN PR PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG
+        SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR
+        TT TV TW TZ UA UG UM US UY UZ VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"},
+        "name": "Greatest Hits", "popularity": "0.74202"}, {"name": "Bon Jovi Greatest
+        Hits - The Ultimate Collection", "popularity": "0.78754", "external-ids":
+        [{"type": "upc", "id": "00602527523347"}], "href": "spotify:album:0Bkb9wdEeOPBJnLYmQqVR2",
+        "artists": [{"href": "spotify:artist:58lV9VcRSjABbAbfWS6skp", "name": "Bon
+        Jovi"}], "availability": {"territories": "AT AU BE CH CN CZ DE DK ES FR GB
+        HK HR HU IE IL IN IT LU MY NL NO NZ PL PT RU SE SG SK TH TR TW UA ZA"}}, {"name":
+        "Greatest Hits II", "popularity": "0.74728", "external-ids": [{"type": "upc",
+        "id": "00602527583655"}], "href": "spotify:album:3enuKERSauyNFVTa2n0t7S",
+        "artists": [{"href": "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d", "name": "Queen"}],
+        "availability": {"territories": "AT AU BE CH CN CZ DE DK EE ES FI FR GB HK
+        HR HU IE IL IN IT LT LU LV MY NL NO NZ PL PT RU SE SG SK TH TR TW UA ZA"}},
+        {"name": "Bon Jovi Greatest Hits", "popularity": "0.75967", "external-ids":
+        [{"type": "upc", "id": "00602527523361"}], "href": "spotify:album:3Ad4QdO0EJr1c2livr9cmm",
+        "artists": [{"href": "spotify:artist:58lV9VcRSjABbAbfWS6skp", "name": "Bon
+        Jovi"}], "availability": {"territories": "AT AU BE CH CN CZ DE DK EE ES FI
+        GB HK HR HU IE IL IN IT LT LU LV MY NL NO NZ PL PT RU SE SG SK TH TR TW UA
+        ZA"}}, {"name": "Greatest Hits", "popularity": "0.73354", "external-ids":
+        [{"type": "upc", "id": "00602527274683"}], "href": "spotify:album:23W2qtQDqASXPMsBXYpTY0",
+        "artists": [{"href": "spotify:artist:67ea9eGLXYMsO2eYQRui3w", "name": "The
+        Who"}], "availability": {"territories": "AT AU BE CH CZ DE DK EE ES FI FR
+        GB HK HR HU IE IL IN IT LT LV MY NL NO NZ PL PT RU SE SG SK TR TW ZA"}}, {"name":
+        "Greatest Hits", "popularity": "0.72953", "external-ids": [{"type": "upc",
+        "id": "00602498613696"}], "href": "spotify:album:4a92B7gXZWKJopxs6gWgqb",
+        "artists": [{"href": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC", "name": "Guns
+        N'' Roses"}], "availability": {"territories": "CA US"}}, {"name": "Greatest
+        Hits - Chapter One", "popularity": "0.75342", "external-ids": [{"type": "upc",
+        "id": "886443624436"}], "href": "spotify:album:4S08bOIf2PHzp2bmP0mdaV", "artists":
+        [{"href": "spotify:artist:3BmGtnKgCSGYIUhmivXKWX", "name": "Kelly Clarkson"}],
+        "availability": {"territories": "CA US"}}, {"name": "Greatest Hits", "popularity":
+        "0.72560", "external-ids": [{"type": "upc", "id": "884977215960"}], "href":
+        "spotify:album:1c72XklDkH9TmbPMxy11a9", "artists": [{"href": "spotify:artist:7EER70XxNNq6XKw6xzDjGZ",
+        "name": "Bruce Springsteen & The E Street Band"}], "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BS
+        BT BW BY BZ CD CF CG CH CI CK CM CU CV CY CZ DE DJ DK DM DO DZ EE EG EH ER
+        ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GU GW GY HR
+        HT HU IE IL IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MZ NA NC NE NG NL NO NP NR NU NZ OM PF PG PK PL PM PN PR PS PT PW QA RE
+        RO RS RU RW SA SB SC SD SE SH SI SK SL SM SN SO SR ST SY SZ TC TD TF TG TJ
+        TK TL TM TN TO TR TT TV TZ UA UG UZ VA VC VG VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        {"artists": [{"href": "spotify:artist:43sZBwHjahUvgbx1WNIkIz", "name": "Creed"}],
+        "href": "spotify:album:4btSrwp3BOMRmxKwUhbS0Z", "availability": {"territories":
+        "AD AE AG AI AL AM AN AO AQ AR AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL
+        BN BO BR BS BT BV BW BY BZ CC CD CF CG CH CI CK CL CM CN CO CR CU CV CX CY
+        CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF
+        GG GH GI GM GN GP GQ GR GS GT GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ
+        IR IS IT JE JM JO JP KE KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MF MG MH ML MN MO MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PN PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}, "name": "Greatest Hits", "popularity": "0.72041"}, {"name":
+        "Greatest Hits", "popularity": "0.71909", "external-ids": [{"type": "upc",
+        "id": "075596272667"}], "href": "spotify:album:6NII6OnGzd07nDw5o7Secq", "artists":
+        [{"href": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s", "name": "The Cure"}], "availability":
+        {"territories": "CA US"}}, {"artists": [{"href": "spotify:artist:0u2FHSq3ln94y5Q57xazwf",
+        "name": "Keith Urban"}], "href": "spotify:album:0xBQEVKKlFKaetqike1qXK", "availability":
+        {"territories": "AD AE AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB BD
+        BE BF BG BH BI BJ BL BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GG GH GI GM GN GP GQ GR GS GT GU GW GY HK HM HN HR
+        HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KH KI KM KN KP KR KW KY
+        KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH ML MN MO MP MQ MR
+        MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG
+        PH PK PL PM PN PR PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK
+        SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ
+        UA UG UM US UY UZ VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}, "name": "Greatest
+        Hits - 18 Kids", "popularity": "0.73915"}, {"name": "Simon And Garfunkel''s
+        Greatest Hits", "popularity": "0.75445", "external-ids": [{"type": "upc",
+        "id": "884977133356"}], "href": "spotify:album:25irJgxRNTlyg8pUmWfDVG", "artists":
+        [{"href": "spotify:artist:70cRZdQywnSFp9pnc2WTCE", "name": "Simon & Garfunkel"}],
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IN IT KR KZ LB LT LU LV MA MT MX
+        MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY VE
+        ZA"}}, {"name": "Greatest Hits", "popularity": "0.71050", "external-ids":
+        [{"type": "upc", "id": "886973702420"}], "href": "spotify:album:2hwM2z7y5OWRkCZ9cPaOLq",
+        "artists": [{"href": "spotify:artist:3zTOe1BtyTkwNvYZOxXktX", "name": "Joe"}],
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AZ BA BB
+        BD BE BF BG BH BI BJ BM BN BO BR BS BT BY BZ CA CD CF CG CI CK CL CM CN CO
+        CR CU CV CY DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT ID IE IL IN IO IQ
+        IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NC NE
+        NI NL NO NP NR NU OM PA PE PF PG PH PK PM PN PR PS PT PW PY QA RE RO RS RW
+        SA SB SC SD SE SG SH SI SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL
+        TM TN TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZM ZW ZZ"}},
+        {"artists": [{"name": "Various Artists"}], "href": "spotify:album:6Enkl4YUTdHk8GWrxITUtS",
+        "availability": {"territories": "AD AE AL AT BA BE BG BH CH CY CZ DE DK EE
+        ES FI FO FR GB GI GR HR HU IE IL IQ IR IS IT JO KW LB LI LT LU LV MC ME MT
+        NL NO OM PL PT QA RO RS SA SE SI SK SM SY TR UA YE ZA"}, "name": "Disney''s
+        Greatest Hits", "popularity": "0.71825"}, {"name": "Greatest Hits", "popularity":
+        "0.70388", "external-ids": [{"type": "upc", "id": "00602498866108"}], "href":
+        "spotify:album:5EsQ7956b4yaKtb1iptpJP", "artists": [{"href": "spotify:artist:6FBDaR13swtiWwGhX1WQsP",
+        "name": "blink-182"}], "availability": {"territories": "CA US"}}, {"name":
+        "Greatest Hits - Chapter One", "popularity": "0.72741", "external-ids": [{"type":
+        "upc", "id": "886443703315"}], "href": "spotify:album:0UxWN628tSTCaR4NVpqSHM",
+        "artists": [{"href": "spotify:artist:3BmGtnKgCSGYIUhmivXKWX", "name": "Kelly
+        Clarkson"}], "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ
+        AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF
+        CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES
+        ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK
+        HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY
+        KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG
+        PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ
+        UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Greatest
+        Hits: My Prerogative", "popularity": "0.72654", "external-ids": [{"type":
+        "upc", "id": "828766600629"}], "href": "spotify:album:3caKTh2tJMowPiMz0cguLI",
+        "artists": [{"href": "spotify:artist:26dSoYclwsYLMAKD3tpOr4", "name": "Britney
+        Spears"}], "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ
+        AR AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BY BZ CA CD CF CG CI
+        CK CL CM CN CO CR CU CV CY CZ DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MZ NC NE NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PM PN PR PS PT PW
+        PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TJ TK TL TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF
+        WS YE YT ZM ZW ZZ"}}, {"artists": [{"href": "spotify:artist:2HcwFjNelS49kFbfvMxQYw",
+        "name": "Robbie Williams"}], "href": "spotify:album:3KnJzJIjhNYr7G1VErTLH3",
+        "availability": {"territories": "AD AE AG AI AL AM AN AO AQ AR AT AU AW AX
+        AZ BA BB BD BE BF BG BH BI BJ BL BN BO BR BS BT BV BW BY BZ CC CD CF CG CH
+        CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET
+        FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GM GN GP GQ GR GS GT GW GY HK HM
+        HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO KE KH KI KM KN KP KR KW
+        KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH ML MN MO MQ MR
+        MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG
+        PH PK PL PN PR PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL
+        SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA
+        UG UY UZ VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}, "name": "In And Out Of
+        Consciousness: Greatest Hits 1990 - 2010", "popularity": "0.76069"}, {"name":
+        "Greatest Hits", "popularity": "0.69913", "external-ids": [{"type": "upc",
+        "id": "093624893561"}], "href": "spotify:album:5wIp9G5YVsq4rqWFJINFfs", "artists":
+        [{"href": "spotify:artist:6v8FB84lnmJs434UJf2Mrm", "name": "Neil Young"}],
+        "availability": {"territories": "AD AI AL AM AT AW AX AZ BA BE BG BM BV BY
+        CA CH CY CZ DE DK EE ES FI FK FO FR GE GF GG GI GL GP GR GS HR HU IE IM IO
+        IS IT JE KY LI LT LU LV MC MD ME MK MQ MS MT NC NL NO NZ PF PL PM PN PT RE
+        RO RS RU SE SH SI SJ SK SM TC TF TR UA US VA VG WF YT"}}, {"name": "Bon Jovi
+        Greatest Hits", "popularity": "0.72270", "external-ids": [{"type": "upc",
+        "id": "00602527517001"}], "href": "spotify:album:0C8Poy7zwJ1kQh2sldyvHm",
+        "artists": [{"href": "spotify:artist:58lV9VcRSjABbAbfWS6skp", "name": "Bon
+        Jovi"}], "availability": {"territories": "CA US"}}, {"name": "Greatest Hits",
+        "popularity": "0.69571", "external-ids": [{"type": "upc", "id": "00602517923522"}],
+        "href": "spotify:album:45oxrhbTq2olcPIluFroYA", "artists": [{"href": "spotify:artist:7qG3b048QCHVRO5Pv1T5lw",
+        "name": "Enrique Iglesias"}], "availability": {"territories": "AT AU DK EE
+        ES FI FR HR IT LT LU LV NL NO NZ SE"}}, {"name": "Greatest Hits", "popularity":
+        "0.69129", "external-ids": [{"type": "upc", "id": "075679999566"}], "href":
+        "spotify:album:5XqEf16OrHdmMoNS1b6WDg", "artists": [{"href": "spotify:artist:5me0Irg2ANcsgc93uaYrpb",
+        "name": "The Notorious B.I.G."}], "availability": {"territories": "AD AI AL
+        AM AT AU AW AX AZ BA BE BG BM BV BY CA CH CY CZ DE DK EE ES FI FK FO FR GB
+        GE GG GI GL GP GR GS HR HU IE IM IO IS IT JE KY LI LT LU LV MC MD ME MK MQ
+        MS MT NC NL NO NZ PF PL PM PN PT RE RO RS RU SE SH SI SJ SK SM TC TF TR UA
+        US VA VG WF YT"}}, {"artists": [{"href": "spotify:artist:2SHhfs4BiDxGQ3oxqf0UHY",
+        "name": "Roxette"}], "href": "spotify:album:1nQK4dpultSS3YeHfYrgEW", "availability":
+        {"territories": "AD AE AG AI AL AM AN AO AQ AR AT AU AW AX AZ BA BB BD BE
+        BF BG BH BI BJ BL BN BO BR BS BT BV BW BY BZ CC CD CF CG CH CI CK CL CM CN
+        CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO
+        FR GA GB GD GE GF GG GH GI GM GN GP GQ GR GS GT GW GY HK HM HN HR HT HU ID
+        IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KH KI KM KN KP KR KW KY KZ LA LB
+        LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH ML MN MO MQ MR MS MT MU MV
+        MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM
+        PN PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR
+        ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VC
+        VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}, "name": "A Collection Of Roxette Hits!
+        Their 20 Greatest Songs!", "popularity": "0.75193"}, {"name": "Greatest Hits",
+        "popularity": "0.69047", "external-ids": [{"type": "upc", "id": "601501410321"}],
+        "href": "spotify:album:2yn8yrBA513RFE8l07RhMA", "artists": [{"href": "spotify:artist:43sZBwHjahUvgbx1WNIkIz",
+        "name": "Creed"}], "availability": {"territories": "US"}}, {"name": "Greatest
+        Hits", "popularity": "0.68961", "external-ids": [{"type": "upc", "id": "00602517522961"}],
+        "href": "spotify:album:4jxgzU8zEqO3dk1yjMGNWK", "artists": [{"href": "spotify:artist:4tX2TplrkIP4v05BNC903e",
+        "name": "Tom Petty And The Heartbreakers"}], "availability": {"territories":
+        "AT AU BE CH CZ DE ES FI GB HR IE NL NO NZ PL RU SK TW ZA"}}, {"name": "The
+        Greatest Hits", "popularity": "0.69593", "external-ids": [{"type": "upc",
+        "id": "00602537227259"}], "href": "spotify:album:22S5arZONb8LdaURbpzpDR",
+        "artists": [{"href": "spotify:artist:2RTUTCvo6onsAnheUk3aL9", "name": "3 Doors
+        Down"}], "availability": {"territories": "AT AU BE CH CN CZ DE DK EE ES FI
+        GB HK HR HU IE IL IN IT LT LU LV MY NL NO NZ PL PT RU SE SG SK TH TR TW UA
+        ZA"}}, {"name": "Greatest Hits", "popularity": "0.68432", "external-ids":
+        [{"type": "upc", "id": "5099751125921"}], "href": "spotify:album:0D6QmUlYmrTExpUA3T4GTM",
+        "artists": [{"href": "spotify:artist:2WKdxPFRD7IqZvlIAvhMgY", "name": "Fugees"}],
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MY MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR
+        PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST
+        SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC
+        VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Chronicle: 20 Greatest Hits",
+        "popularity": "0.70629", "external-ids": [{"type": "upc", "id": "00025218222228"}],
+        "href": "spotify:album:03GKkfyog7hnllilFS3jIV", "artists": [{"href": "spotify:artist:3IYUhFvPQItj6xySrBmZkd",
+        "name": "Creedence Clearwater Revival"}], "availability": {"territories":
+        "CA US"}}, {"name": "Greatest Hits", "popularity": "0.68088", "external-ids":
+        [{"type": "upc", "id": "00600753016206"}], "href": "spotify:album:5wNitMGZs4mCBdbKFbzwzn",
+        "artists": [{"href": "spotify:artist:3PhoLpVuITZKcymswpck5b", "name": "Elton
+        John"}], "availability": {"territories": "AU NO RU SE SG"}}, {"name": "Greatest
+        Hits", "popularity": "0.68011", "external-ids": [{"type": "upc", "id": "081227653767"}],
+        "href": "spotify:album:5hVTcLOMdF852hzUu7HUCY", "artists": [{"href": "spotify:artist:2pdvghEHZJtgSXZ7cvNLou",
+        "name": "Crosby, Stills & Nash"}], "availability": {"territories": "AD AI
+        AL AM AT AU AW AX AZ BA BE BG BM BV BY CA CH CY CZ DE DK EE ES FI FK FO FR
+        GB GE GF GG GI GL GP GR GS HR HU IE IM IO IS IT JE KY LI LT LU LV MC MD ME
+        MK MQ MS MT NC NL NO NZ PF PL PM PN PT RE RO RS RU SE SH SI SJ SK SM TC TF
+        TR UA US VA VG WF YT"}}, {"name": "Greatest Hits", "popularity": "0.67872",
+        "external-ids": [{"type": "upc", "id": "884977820188"}], "href": "spotify:album:02abrECBsxdR3Ywjy1hCuW",
+        "artists": [{"href": "spotify:artist:5aYyPjAsLj7UzANzdupwnS", "name": "Good
+        Charlotte"}], "availability": {"territories": "AD AE AF AG AI AL AM AN AO
+        AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER
+        ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY
+        HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW
+        KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP
+        MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF
+        PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW
+        TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"artists": [{"href":
+        "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i", "name": "The Smashing Pumpkins"}],
+        "href": "spotify:album:1cUnNrx2TxvrpwPRtvpGwn", "availability": {"territories":
+        "AD AE AG AI AL AM AN AO AQ AR AS AT AU AW AZ BA BB BD BE BF BG BH BI BJ BL
+        BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CX
+        CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IN IO IQ
+        IR IS IT JM JO JP KE KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MF MG MH ML MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PT PW PY QA
+        RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC
+        TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VC VE VG VI
+        VN VU WF WS YE YT ZA ZM ZW ZZ"}, "name": "Rotten Apples, The Smashing Pumpkins
+        Greatest Hits", "popularity": "0.72581"}, {"name": "Greatest Hits: My Prerogative",
+        "popularity": "0.69944", "external-ids": [{"type": "upc", "id": "828766529425"}],
+        "href": "spotify:album:574xhx2X0G9MkqACxqi4cg", "artists": [{"href": "spotify:artist:26dSoYclwsYLMAKD3tpOr4",
+        "name": "Britney Spears"}], "availability": {"territories": "AD AE AF AG AI
+        AL AM AN AO AQ AR AT AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY
+        BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE
+        EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT
+        GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM
+        MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU OM PA
+        PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG
+        SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT
+        TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name":
+        "Greatest Hits", "popularity": "0.67486", "external-ids": [{"type": "upc",
+        "id": "00602498631416"}], "href": "spotify:album:02SQS3hERbgOjnZc0hmWKk",
+        "artists": [{"href": "spotify:artist:5e4Dhzv426EvQe3aDb64jL", "name": "Shania
+        Twain"}], "availability": {"territories": "CA US"}}, {"name": "Greatest Hits",
+        "popularity": "0.67286", "external-ids": [{"type": "upc", "id": "00602527364216"}],
+        "href": "spotify:album:2uxG4gg4WnqR5eriMN6ehS", "artists": [{"href": "spotify:artist:4tX2TplrkIP4v05BNC903e",
+        "name": "Tom Petty And The Heartbreakers"}], "availability": {"territories":
+        "CA US"}}, {"name": "Greatest Hits", "popularity": "0.67175", "external-ids":
+        [{"type": "upc", "id": "00602498864456"}], "href": "spotify:album:2ghxwONTYbBQNxkROvij6C",
+        "artists": [{"href": "spotify:artist:6FBDaR13swtiWwGhX1WQsP", "name": "blink-182"}],
+        "availability": {"territories": "CA US"}}, {"name": "Greatest Hits", "popularity":
+        "0.67086", "external-ids": [{"type": "upc", "id": "828767330723"}], "href":
+        "spotify:album:45gbCmUeq5ZMgXiDkPweRD", "artists": [{"href": "spotify:artist:6Ff53KvcvAj5U7Z1vojB5o",
+        "name": "N Sync"}], "availability": {"territories": "AR BO BR CA CL CO CR
+        EC GT HN MX NI PA PE PY SV US UY VE"}}, {"name": "Whitney The Greatest Hits",
+        "popularity": "0.69490", "external-ids": [{"type": "upc", "id": "078221462624"}],
+        "href": "spotify:album:4bXTYQ8nVBYO4k3C3TOVri", "artists": [{"href": "spotify:artist:6XpaIBNiVzIetEPCWDvAFP",
+        "name": "Whitney Houston"}], "availability": {"territories": "US"}}, {"name":
+        "Greatest Hits", "popularity": "0.66905", "external-ids": [{"type": "upc",
+        "id": "884977735857"}], "href": "spotify:album:29pTiwvAAgbAjrl0g1twLy", "artists":
+        [{"href": "spotify:artist:2WKdxPFRD7IqZvlIAvhMgY", "name": "Fugees"}], "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+        NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW
+        PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG
+        VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Believers Never Die - Greatest
+        Hits", "popularity": "0.70943", "external-ids": [{"type": "upc", "id": "00602527252513"}],
+        "href": "spotify:album:2FkdqW19xrKlDfeZjWf4Gt", "artists": [{"href": "spotify:artist:4UXqAaa6dQYAk18Lv7PEgX",
+        "name": "Fall Out Boy"}], "availability": {"territories": "CA US"}}, {"name":
+        "Greatest Hits", "popularity": "0.66792", "external-ids": [{"type": "upc",
+        "id": "4606817396747"}], "href": "spotify:album:4Ip2M1LyOpNT4JDxZnc6u3", "artists":
+        [{"href": "spotify:artist:7aBzpmFXB4WWpPl2F7RjBe", "name": "Wyclef Jean"}],
+        "availability": {"territories": "AE AM AT AZ BD BE BY CH CZ DE DK DZ EE EG
+        ES FI FR GB GE GR HU IE IL IS IT JO KG KW KZ LB LT LU LV MA MD NL NO OM PK
+        PL PS PT QA RO RU SA SE SK SY TH TJ TM TN TR UA UZ"}}, {"name": "Greatest
+        Hits", "popularity": "0.66620", "external-ids": [{"type": "upc", "id": "884977737271"}],
+        "href": "spotify:album:0LnjgQoLmLfPFi30J7JtDS", "artists": [{"href": "spotify:artist:20qISvAhX20dpIbOOzGK3q",
+        "name": "Nas"}], "availability": {"territories": "AD AE AF AG AI AL AM AN
+        AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA
+        CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW
+        GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR
+        KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO
+        MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE
+        PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH
+        SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV
+        TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name":
+        "Greatest Hits", "popularity": "0.66571", "external-ids": [{"type": "upc",
+        "id": "00602527274683"}], "href": "spotify:album:1jkd5zta1g1eFz6zuzupyW",
+        "artists": [{"href": "spotify:artist:67ea9eGLXYMsO2eYQRui3w", "name": "The
+        Who"}], "availability": {"territories": "CA US"}}, {"name": "Greatest Hits",
+        "popularity": "0.66372", "external-ids": [{"type": "upc", "id": "00602527604084"}],
+        "href": "spotify:album:6nnI4w6ogIVZLeNJgLmu94", "artists": [{"href": "spotify:artist:4aJTB79uwT4sP0Nb8QGWHc",
+        "name": "Joe Nichols"}], "availability": {"territories": "CA US"}}, {"artists":
+        [{"href": "spotify:artist:5I4eibDkC7gg0hmczTZuND", "name": "Mando Diao"}],
+        "href": "spotify:album:2nxcairPuxNmIKxLXM7oqp", "availability": {"territories":
+        "AD AE AG AI AL AM AN AO AQ AR AS AT AU AW AZ BA BB BD BE BF BG BH BI BJ BL
+        BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CX
+        CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GD GE GF
+        GH GI GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IL IN IO IQ IR IS
+        IT JM JO JP KE KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY
+        MA MC MD ME MF MG MH ML MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF
+        NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VC VE VG VI VN VU
+        WF WS YE YT ZA ZM ZW ZZ"}, "name": "Greatest Hits Volume 1", "popularity":
+        "0.68443"}, {"name": "Greatest Hits", "popularity": "0.65877", "external-ids":
+        [{"type": "upc", "id": "075679998866"}], "href": "spotify:album:7w6JfcM0dR4kx7W0izCGIF",
+        "artists": [{"href": "spotify:artist:5me0Irg2ANcsgc93uaYrpb", "name": "The
+        Notorious B.I.G."}], "availability": {"territories": "AD AI AL AM AT AU AW
+        AX AZ BA BE BG BM BV BY CH CY CZ DE DK EE ES FI FK FO FR GB GE GG GI GL GP
+        GR GS HR HU IE IM IO IS IT JE KY LI LT LU LV MC MD ME MK MQ MS MT NC NL NO
+        NZ PF PL PM PN PT RE RO RS RU SE SH SI SJ SK SM TC TF TR UA VA VG WF YT"}},
+        {"name": "2Pac Greatest Hits", "popularity": "0.66941", "external-ids": [{"type":
+        "upc", "id": "00602527051840"}], "href": "spotify:album:1WBZyULtlANBKed7Zf9cDP",
+        "artists": [{"href": "spotify:artist:1ZwdS5xdxEREPySFridCfh", "name": "2Pac"}],
+        "availability": {"territories": "US"}}, {"name": "Greatest Hits \/ Every Mile
+        A Memory 2003 - 2008", "popularity": "0.70401", "external-ids": [{"type":
+        "upc", "id": "5099920907051"}], "href": "spotify:album:4iUwiEhZk4bbaoA6qiZSy6",
+        "artists": [{"href": "spotify:artist:7x8nK0m0cP2ksQf0mjWdPS", "name": "Dierks
+        Bentley"}], "availability": {"territories": "AD AE AG AI AL AM AN AO AQ AR
+        AS AT AU AW AZ BA BB BD BE BF BG BH BI BJ BN BO BR BS BT BV BW BY BZ CA CC
+        CD CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG
+        EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GM GN GP GQ GR GS GT GU
+        GW GY HK HM HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KH KI KM KN KP
+        KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD MG MH ML MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF
+        PG PH PK PL PM PN PR PT PW PY QA RE RO RU RW SA SB SC SD SE SG SH SI SJ SK
+        SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ
+        UA UG UM US UY UZ VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"artists":
+        [{"href": "spotify:artist:3UbyYnvNIT5DFXU4WgiGpP", "name": "Whitesnake"}],
+        "href": "spotify:album:0Z5nu6FcdcWtmzvQ7uK0qJ", "availability": {"territories":
+        "AD AE AG AI AL AM AN AO AQ AR AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL
+        BN BO BR BS BT BV BW BY BZ CC CD CF CG CH CI CK CL CM CN CO CR CU CV CX CY
+        CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF
+        GG GH GI GM GN GP GQ GR GS GT GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ
+        IR IS IT JE JM JO KE KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD ME MF MG MH ML MN MO MQ MR MS MT MU MV MW MX MY MZ NA NC NE
+        NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PN PT PW PY QA RE RO RS
+        RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG
+        TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VC VE VG VN VU WF WS YE YT
+        ZA ZM ZW ZZ"}, "name": "Whitesnake''s Greatest Hits", "popularity": "0.66495"},
+        {"artists": [{"href": "spotify:artist:5ksRONqssB7BR161NTtJAm", "name": "Ace
+        of Base"}], "href": "spotify:album:0nQFgMfnmWrcWDOQqIgJL7", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB
+        BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ
+        FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM
+        HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP
+        KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM
+        PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE
+        SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO
+        TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW
+        ZZ"}, "name": "Greatest Hits", "popularity": "0.65366"}, {"name": "Greatest
+        Hits II", "popularity": "0.66458", "external-ids": [{"type": "upc", "id":
+        "00050087240141"}], "href": "spotify:album:7rq68qYz66mNdPfidhIEFa", "artists":
+        [{"href": "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d", "name": "Queen"}], "availability":
+        {"territories": "CA US"}}, {"name": "Greatest Hits", "popularity": "0.65270",
+        "external-ids": [{"type": "upc", "id": "825646922406"}], "href": "spotify:album:5i6GirKN5HIsPbHXThxQGs",
+        "artists": [{"href": "spotify:artist:2JyWXPbkqI5ZJa3gwqVa0c", "name": "Craig
+        David"}], "availability": {"territories": "AD AI AL AM AT AU AW AX AZ BA BE
+        BG BM BV BY CA CH CY CZ DE DK EE ES FI FK FO FR GB GE GF GG GI GL GP GR GS
+        HR HU IE IM IO IS IT JE KY LI LT LU LV MC MD ME MK MQ MS MT NC NL NO NZ PF
+        PL PM PN PT RE RO RS RU SE SH SI SJ SK SM TC TF TR UA VA VG WF YT"}}, {"name":
+        "Greatest Hits", "popularity": "0.65229", "external-ids": [{"type": "upc",
+        "id": "00602527058795"}], "href": "spotify:album:4hr1jzHzC2LYN6AO3rgnFc",
+        "artists": [{"href": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ", "name": "Black
+        Sabbath"}], "availability": {"territories": "AT CN CZ DE EE ES FI GB HK HR
+        HU LT LV MY NO PL PT SE SG SK TR TW ZA"}}, {"name": "Greatest Hits", "popularity":
+        "0.65191", "external-ids": [{"type": "upc", "id": "825646926510"}], "href":
+        "spotify:album:0AImCiLf4sbwHnjA1vDwJ1", "artists": [{"href": "spotify:artist:2JyWXPbkqI5ZJa3gwqVa0c",
+        "name": "Craig David"}], "availability": {"territories": "AD AI AL AM AT AU
+        AW AX AZ BA BE BG BM BV BY CA CH CY CZ DE DK EE ES FI FK FO FR GB GE GF GG
+        GI GL GP GR GS HR HU IE IM IO IS IT JE KY LI LT LU LV MC MD ME MK MQ MS MT
+        NC NL NO NZ PF PL PM PN PT RE RO RS RU SE SH SI SJ SK SM TC TF TR UA US VA
+        VG WF YT"}}, {"name": "Greatest Hits", "popularity": "0.65122", "external-ids":
+        [{"type": "upc", "id": "00602498869864"}], "href": "spotify:album:0SvLzQZVwLWoY7p7zUcvxs",
+        "artists": [{"href": "spotify:artist:6FBDaR13swtiWwGhX1WQsP", "name": "blink-182"}],
+        "availability": {"territories": "AT AU BE CH CN CZ DE DK EE ES FI FR HK HR
+        HU IL IN IT LT LV MY NL NO NZ PL PT RU SE SG SK TH TR TW UA ZA"}}, {"name":
+        "Greatest Hits", "popularity": "0.65100", "external-ids": [{"type": "upc",
+        "id": "00602498636046"}], "href": "spotify:album:0wYdogtc8g8BfGbhWaRs3A",
+        "artists": [{"href": "spotify:artist:5e4Dhzv426EvQe3aDb64jL", "name": "Shania
+        Twain"}], "availability": {"territories": "AT AU BE CH CN CZ DE DK EE ES FI
+        FR GB HK HR HU IE IL IN IT LT LV MY NL NO NZ PL PT RU SE SG SK TH TR TW UA
+        ZA"}}, {"name": "Greatest Hits, Vol. 1", "popularity": "0.67398", "external-ids":
+        [{"type": "upc", "id": "4606817698056"}], "href": "spotify:album:3NSivK5tIM5k4IiH5wobRr",
+        "artists": [{"href": "spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD", "name": "Korn"}],
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CD CF CG CH CI CK CL
+        CM CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO
+        FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HN HR HT HU IE IL IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KW KY KZ LA LB LC LI LK LR LS LT LU
+        LV LY MA MC MD MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PK PL PM PN PR PS PT PW PY QA RE
+        RO RU RW SA SB SC SD SE SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH
+        TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT
+        ZA ZM ZW ZZ"}}, {"name": "Greatest Hits", "popularity": "0.64845", "external-ids":
+        [{"type": "upc", "id": "075679999559"}], "href": "spotify:album:2yDwwjGzGEcyJMEJuCNyiP",
+        "artists": [{"href": "spotify:artist:5me0Irg2ANcsgc93uaYrpb", "name": "The
+        Notorious B.I.G."}], "availability": {"territories": "AD AI AL AM AT AU AW
+        AX AZ BA BE BG BM BV BY CA CH CY CZ DE DK EE ES FI FK FO FR GB GE GG GI GL
+        GP GR GS HR HU IE IM IO IS IT JE KY LI LT LU LV MC MD ME MK MQ MS MT NC NL
+        NO NZ PF PL PM PN PT RE RO RS RU SE SH SI SJ SK SM TC TF TR UA US VA VG WF
+        YT"}}, {"name": "Greatest Hits", "popularity": "0.64768", "external-ids":
+        [{"type": "upc", "id": "886443313071"}], "href": "spotify:album:0bXtfuySRAgm6d8s1OGsnN",
+        "artists": [{"href": "spotify:artist:5Z1CCuBsyhEHngq3U5IraY", "name": "Westlife"}],
+        "availability": {"territories": "DK EE FI LT LV NO SE"}}, {"name": "Greatest
+        Hits", "popularity": "0.64738", "external-ids": [{"type": "upc", "id": "00602527148168"}],
+        "href": "spotify:album:58F319Pyj5Pb2jCB5oBLoT", "artists": [{"href": "spotify:artist:6kBjAFKyd0he7LiA5GQ3Gz",
+        "name": "Aqua"}], "availability": {"territories": "AT AU BE CH CN CZ DE DK
+        EE ES FI GB HK HR HU IE IL IN IT LT LV MY NL NO NZ PL PT RU SE SG SK TR TW
+        UA ZA"}}, {"artists": [{"href": "spotify:artist:5rIqOJspxDq89aBBCUda1X", "name":
+        "Smokie"}], "href": "spotify:album:1x4J7QopaxwBY4lg8ufxLH", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB
+        BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CX CY CZ DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN
+        HR HT HU ID IE IL IN IO IQ IR IS IT JM JO JP KE KG KH KI KM KN KP KR KW KY
+        KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF
+        PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI
+        SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV
+        TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}, "name":
+        "Greatest Hits Collection", "popularity": "0.65804"}, {"name": "X - Greatest
+        Hits", "popularity": "0.65793", "external-ids": [{"type": "upc", "id": "00602517846111"}],
+        "href": "spotify:album:08stssKi7ZVojsZOWswq5M", "artists": [{"href": "spotify:artist:5A0Bu9azuFEnud3q7t0V2r",
+        "name": "Petter"}], "availability": {"territories": "DK FI NO SE"}}, {"name":
+        "Greatest Hits", "popularity": "0.64671", "external-ids": [{"type": "upc",
+        "id": "884977238594"}], "href": "spotify:album:1uZt3krO6HcWqaN3kxVzyf", "artists":
+        [{"href": "spotify:artist:20qISvAhX20dpIbOOzGK3q", "name": "Nas"}], "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+        NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW
+        PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Greatest Hits", "popularity": "0.64667",
+        "external-ids": [{"type": "upc", "id": "880882159122"}], "href": "spotify:album:4qftMiei1rEAIPttiJPHWM",
+        "artists": [{"href": "spotify:artist:7J2lZBANizgPNfUzux31PV", "name": "David
+        Gray"}], "availability": {"territories": "MX US"}}, {"name": "Greatest Hits
+        Volume 1", "popularity": "0.67034", "external-ids": [{"type": "upc", "id":
+        "00050087130275"}], "href": "spotify:album:0dhV385nfDhsWNdN25kyuv", "artists":
+        [{"href": "spotify:artist:0a1gHP0HAqALbEyxaD5Ngn", "name": "Rascal Flatts"}],
+        "availability": {"territories": "CA US"}}, {"name": "Greatest Hits", "popularity":
+        "0.64564", "external-ids": [{"type": "upc", "id": "075992733663"}], "href":
+        "spotify:album:2L4U4JjEADYaVltkvDrkCC", "artists": [{"href": "spotify:artist:0vn7UBvSQECKJm2817Yf1P",
+        "name": "James Taylor"}], "availability": {"territories": "AD AI AL AM AT
+        AU AZ BA BE BG BM BV BY CA CH CY CZ DE DK EE ES FI FO FR GB GF GI GL GR HR
+        HU IE IS IT KY LI LT LU LV MC MD ME MK MT NL NO PL PT RO RS RU SE SI SJ SK
+        SM TR UA US VA VG"}}, {"name": "Worlds Greatest Xmas Hits 2012 - The only
+        Christmas Hits album you''ll ever need", "popularity": "0.65459", "external-ids":
+        [{"type": "upc", "id": "5055501305319"}], "href": "spotify:album:6iZE5IxKErcP4VkM5PLo9o",
+        "artists": [{"href": "spotify:artist:2I1eVbRrZzbbia55ur7jj6", "name": "Christmas
+        Hits Collective"}], "availability": {"territories": "GB"}}, {"name": "Aerosmith''s
+        Greatest Hits", "popularity": "0.65482", "external-ids": [{"type": "upc",
+        "id": "074645736723"}], "href": "spotify:album:3VNTh6evo3MyUsStAiatcY", "artists":
+        [{"href": "spotify:artist:7Ey4PD4MYsKc5I2dolUwbH", "name": "Aerosmith"}],
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MY MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR
+        PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST
+        SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA
+        VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Greatest Hits ''93 -
+        ''03", "popularity": "0.66794", "external-ids": [{"type": "upc", "id": "828766000924"}],
+        "href": "spotify:album:0OsjlbBaSZFbZnXGAUysMG", "artists": [{"href": "spotify:artist:41Q0HrwWBtuUkJc7C1Rp6K",
+        "name": "311"}], "availability": {"territories": "AD AE AF AG AI AL AM AN
+        AO AQ AR AT AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER
+        ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY
+        HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW
+        KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP
+        MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG
+        PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ
+        UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Greatest
+        Hits", "popularity": "0.64240", "external-ids": [{"type": "upc", "id": "5099747855528"}],
+        "href": "spotify:album:1KFhmgrfmkw1tpiLeZoqTN", "artists": [{"href": "spotify:artist:3eqjTLE0HfPfh78zjh6TqT",
+        "name": "Bruce Springsteen"}], "availability": {"territories": "AD AE AF AG
+        AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT
+        BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ
+        EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ
+        GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI
+        KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK
+        ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU
+        NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC
+        SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN
+        TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        {"name": "Bob Marley - The Greatest Hits", "popularity": "0.68269", "external-ids":
+        [{"type": "upc", "id": "887396135000"}], "href": "spotify:album:2fZy8qMiSyjxLt6jgTkabI",
+        "artists": [{"href": "spotify:artist:2QsynagSdAqZj3U9HgDzjD", "name": "Bob
+        Marley & The Wailers"}], "availability": {"territories": "AD AE AF AG AI AL
+        AM AN AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS
+        BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ
+        DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI
+        GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR
+        IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA
+        NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW
+        PY QA RE RO RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE
+        VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Love''s Greatest Hits",
+        "popularity": "0.65270", "external-ids": [{"type": "upc", "id": "094634928359"}],
+        "href": "spotify:album:6VrgfU55RZBu5EMsfnGDaF", "artists": [{"name": "Various
+        Artists"}], "availability": {"territories": "AD AE AG AI AL AM AN AO AQ AR
+        AS AT AU AW AZ BA BB BD BE BF BG BH BI BJ BN BO BR BS BT BV BW BY BZ CA CC
+        CD CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG
+        EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GM GN GP GQ GR GS GT GU
+        GW GY HK HM HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KH KI KM KN KP
+        KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD MG MH ML MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF
+        PG PH PK PL PM PN PR PT PW PY QA RE RO RU RW SA SB SC SD SE SG SH SI SJ SK
+        SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ
+        UA UG UM US UY UZ VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Why
+        Try Harder - Greatest Hits", "popularity": "0.68179", "external-ids": [{"type":
+        "upc", "id": "828768032527"}], "href": "spotify:album:4A5OxGn3h1eBX7Sl3Q0974",
+        "artists": [{"href": "spotify:artist:4Y7tXHSEejGu1vQ9bwDdXW", "name": "Fatboy
+        Slim"}], "availability": {"territories": "AR AT AU BE BG BO BR BW CA CH CL
+        CN CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB
+        LT LU LV MA MT MX MY NA NG NI NL NO NZ PA PE PH PL PT PY RO RU SE SG SI SK
+        SV TH TN TR TW UY VE ZA"}}, {"name": "Cher''s Greatest Hits: 1965-1992", "popularity":
+        "0.66511", "external-ids": [{"type": "upc", "id": "00720642443927"}], "href":
+        "spotify:album:7BwcYFAOuR2sreSCOkeReI", "artists": [{"href": "spotify:artist:72OaDtakiy6yFqkt4TsiFt",
+        "name": "Cher"}], "availability": {"territories": "AT AU CH CN CZ DE DK EE
+        ES FI FR GB HK HU IE IL IN IT LT LV MY NL NO NZ PT RU SE SG SK TH TW ZA"}},
+        {"artists": [{"href": "spotify:artist:7lzordPuZEXxwt9aoVZYmG", "name": "Billy
+        Idol"}], "href": "spotify:album:1gTvJG5YnrTiwr0uDuzaoA", "availability": {"territories":
+        "AD AE AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ
+        BL BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV
+        CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD
+        GE GF GG GH GI GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM
+        IN IO IQ IR IS IT JE JM JO KE KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR
+        LS LT LU LV LY MA MC MD ME MF MG MH ML MN MO MP MQ MR MS MT MU MV MW MX MY
+        MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PT
+        PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VC
+        VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}, "name": "Greatest Hits", "popularity":
+        "0.63896"}, {"name": "Greatest Hits", "popularity": "0.63647", "external-ids":
+        [{"type": "upc", "id": "078636797625"}], "href": "spotify:album:7iDMtLZF5xX8Ijx3PossZk",
+        "artists": [{"href": "spotify:artist:3grHWM9bx2E9vwJCdlRv9O", "name": "Kenny
+        Chesney"}], "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ
+        AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF
+        CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES
+        ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK
+        HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY
+        KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG
+        PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW TZ UA
+        UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Believers
+        Never Die - Greatest Hits", "popularity": "0.67660", "external-ids": [{"type":
+        "upc", "id": "00602527252513"}], "href": "spotify:album:1uIgPRSggJqaVxJAwUpPok",
+        "artists": [{"href": "spotify:artist:4UXqAaa6dQYAk18Lv7PEgX", "name": "Fall
+        Out Boy"}], "availability": {"territories": "AT AU BE CH CN CZ DK EE ES FI
+        FR GB HK HR HU IE IL IN IT LT LV MY NL NO NZ PL PT RU SE SG SK TH TR TW UA
+        ZA"}}, {"name": "Greatest Hits", "popularity": "0.63487", "external-ids":
+        [{"type": "upc", "id": "00602517907003"}], "href": "spotify:album:5nWQbcfW6yJlffvXITzIDM",
+        "artists": [{"href": "spotify:artist:7qG3b048QCHVRO5Pv1T5lw", "name": "Enrique
+        Iglesias"}], "availability": {"territories": "AT AU BE CH CN CZ DK EE ES FI
+        FR GB HK HR HU IE IN IT LT LV MY NL NO NZ PL PT RU SG SK TR TW ZA"}}, {"name":
+        "Greatest Hits", "popularity": "0.63433", "external-ids": [{"type": "upc",
+        "id": "888880720740"}], "href": "spotify:album:6qOZIE68aFMzZinZz1yXcP", "artists":
+        [{"href": "spotify:artist:6ktyNEnEukKzskQEiXgCFD", "name": "Craig Morgan"}],
+        "availability": {"territories": "CA US"}}, {"name": "Greatest Hits", "popularity":
+        "0.63329", "external-ids": [{"type": "upc", "id": "00008811096427"}], "href":
+        "spotify:album:6E2lDnV61v2HJaNCjLgOIg", "artists": [{"href": "spotify:artist:4tX2TplrkIP4v05BNC903e",
+        "name": "Tom Petty And The Heartbreakers"}], "availability": {"territories":
+        "AT AU BE CH CN CZ DE DK EE ES FI FR GB HK HR HU IE IN IT LT LV MY NL NO NZ
+        PT RU SE SG SK TH TR UA ZA"}}, {"name": "The Greatest Hits", "popularity":
+        "0.64377", "external-ids": [{"type": "upc", "id": "00602537206001"}], "href":
+        "spotify:album:44AVPs6VGKnZHinQNWd6Xd", "artists": [{"href": "spotify:artist:2RTUTCvo6onsAnheUk3aL9",
+        "name": "3 Doors Down"}], "availability": {"territories": "CA US"}}, {"name":
+        "Greatest Hits", "popularity": "0.63198", "external-ids": [{"type": "upc",
+        "id": "767981114224"}], "href": "spotify:album:0fgloBlv8EpPqyL4j1W4AO", "artists":
+        [{"href": "spotify:artist:3dkbV4qihUeMsqN4vBGg93", "name": "Al Green"}], "availability":
+        {"territories": "AR AU BO BR CA CL CO EC FK GF GS GY MX NZ PE PY SR US UY
+        VE"}}, {"name": "Greatest Hits", "popularity": "0.63147", "external-ids":
+        [{"type": "upc", "id": "00602498869871"}], "href": "spotify:album:0wJhfJ8i7HLtVlK6uJkn8L",
+        "artists": [{"href": "spotify:artist:6FBDaR13swtiWwGhX1WQsP", "name": "blink-182"}],
+        "availability": {"territories": "GB IE"}}, {"artists": [{"href": "spotify:artist:3Mcii5XWf6E0lrY3Uky4cA",
+        "name": "Ice Cube"}], "href": "spotify:album:7EPmezGIzLHj7LeTtLYhJZ", "availability":
+        {"territories": "AD AE AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB BD
+        BE BF BG BH BI BJ BL BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GG GH GI GM GN GP GQ GR GS GT GU GW GY HK HM HN HR
+        HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO KE KH KI KM KN KP KR KW KY KZ
+        LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH ML MN MO MP MQ MR MS
+        MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH
+        PK PL PM PN PR PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL
+        SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA
+        UG UM US UY UZ VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}, "name": "Ice Cube''s
+        Greatest Hits", "popularity": "0.65537"}, {"name": "The Cure - Greatest Hits
+        (Deluxe Sound & Vision) PAL", "popularity": "0.69212", "external-ids": [{"type":
+        "upc", "id": "00600753011539"}], "href": "spotify:album:1jfdNZcakaEOi6AuEtJ7xL",
+        "artists": [{"href": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s", "name": "The
+        Cure"}], "availability": {"territories": "AU BE CH CZ DE EE ES FI FR GB HU
+        IE IT LT LU LV NL PL PT SE SG SK"}}, {"name": "The Greatest Hits 1970-2002",
+        "popularity": "0.65490", "external-ids": [{"type": "upc", "id": "00044006347820"}],
+        "href": "spotify:album:6CPTYd8BQRbF6VzhnTWIfL", "artists": [{"href": "spotify:artist:3PhoLpVuITZKcymswpck5b",
+        "name": "Elton John"}], "availability": {"territories": "US"}}, {"name": "Greatest
+        Hits 1 & 2", "popularity": "0.67023", "external-ids": [{"type": "upc", "id":
+        "886443224797"}], "href": "spotify:album:377ByZjYu75lLnQ4mzUxGn", "artists":
+        [{"href": "spotify:artist:0rvjqX7ttXeg3mTy8Xscbt", "name": "Journey"}], "availability":
+        {"territories": "US"}}, {"name": "Greatest Hits 2", "popularity": "0.64040",
+        "external-ids": [{"type": "upc", "id": "00602498620762"}], "href": "spotify:album:5GbASKPwYwyJrNP9PqeXEE",
+        "artists": [{"href": "spotify:artist:2bA6fzP0lMAQ4kz6CF61w8", "name": "Toby
+        Keith"}], "availability": {"territories": "CA US"}}, {"name": "The Greatest
+        Hits (Deluxe)", "popularity": "0.65308", "external-ids": [{"type": "upc",
+        "id": "886443607194"}], "href": "spotify:album:6kXIySsJk3qMCk0BTTV3iD", "artists":
+        [{"href": "spotify:artist:3KNZ9AOjBajjmr6ZR2VGfl", "name": "Il Divo"}], "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR
+        CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+        NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW
+        PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Greatest Hits", "popularity": "0.62864",
+        "external-ids": [{"type": "upc", "id": "078636701226"}], "href": "spotify:album:467Cag6qid9mjW2hpnIcFi",
+        "artists": [{"href": "spotify:artist:3P33qFNGBVXl86yQYWspFj", "name": "Martina
+        McBride"}], "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ
+        AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF
+        CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES
+        ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK
+        HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY
+        KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ
+        MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG
+        PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ
+        UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, {"name": "Greatest
+        Hits", "popularity": "0.62813", "external-ids": [{"type": "upc", "id": "093624929161"}],
+        "href": "spotify:album:2hNa7oWGatOqnKw9cmS4ao", "artists": [{"href": "spotify:artist:6v8FB84lnmJs434UJf2Mrm",
+        "name": "Neil Young"}], "availability": {"territories": "AI AL AM AT AU AZ
+        BA BE BG BM BY CA CH CY CZ DE EE ES FI FR GB GR HR HU IE KY LT LU LV MD ME
+        MK MT NL PL PT RO RS RU SI SK TR UA US VG"}}]}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 12:47:47 GMT
+recorded_with: VCR 2.3.0

@@ -1,0 +1,2169 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ws.spotify.com/lookup/1/.json?uri=spotify:track:07q6QTQXyPRCf7GbLakRPr
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 02 Dec 2012 18:15:51 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Mon, 03 Dec 2012 18:15:51 GMT
+      Last-Modified:
+      - Fri, 30 Nov 2012 23:41:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1151'
+      X-Varnish:
+      - '1812155520'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"track": {"available": true, "album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits"}, "track-number":
+        "3", "popularity": "0.76254", "external-ids": [{"type": "isrc", "id": "USRW29600011"}],
+        "length": 250.259, "href": "spotify:track:07q6QTQXyPRCf7GbLakRPr", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CR CU CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO
+        FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE
+        IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK
+        LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW
+        MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC
+        VG VN VU WF WS YE YT ZA ZM ZW ZZ"}, "name": "Everlong"}, "info": {"type":
+        "track"}}'
+    http_version: 
+  recorded_at: Sun, 02 Dec 2012 18:15:51 GMT
+- request:
+    method: get
+    uri: http://ws.spotify.com/lookup/1/.json?uri=spotify:artist:7jy3rLJdDQY21OgRLCZ9sD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 12:09:47 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 12:09:47 GMT
+      Last-Modified:
+      - Wed, 05 Dec 2012 23:38:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '113'
+      X-Varnish:
+      - '1825982915'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"info": {"type": "artist"}, "artist": {"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters"}}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 12:09:47 GMT
+- request:
+    method: get
+    uri: http://ws.spotify.com/lookup/1/.json?uri=spotify:album:1zCNrbPpz5OLSr6mSpPdKm
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 12:09:47 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 12:09:47 GMT
+      Last-Modified:
+      - Wed, 05 Dec 2012 23:38:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '979'
+      X-Varnish:
+      - '1825982956'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Greatest Hits", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "884977373295"}], "released": "1995", "href": "spotify:album:1zCNrbPpz5OLSr6mSpPdKm",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CR CU CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO
+        FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE
+        IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK
+        LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW
+        MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC
+        VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 12:09:47 GMT
+- request:
+    method: get
+    uri: http://ws.spotify.com/lookup/1/.json?extras=trackdetail&uri=spotify:album:1zCNrbPpz5OLSr6mSpPdKm
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 13:30:34 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 13:30:34 GMT
+      Last-Modified:
+      - Wed, 05 Dec 2012 23:38:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '6182'
+      X-Varnish:
+      - '1826198923'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Greatest Hits", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "884977373295"}], "released": "1995", "tracks": [{"available":
+        true, "track-number": "1", "popularity": "0.65000", "external-ids": [{"type":
+        "isrc", "id": "USRW30200001"}], "length": 263.854, "href": "spotify:track:2HbVINmehEbPmjlcueXEJJ",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "disc-number": "1", "name": "All My Life"}, {"available": true,
+        "track-number": "2", "popularity": "0.72000", "external-ids": [{"type": "isrc",
+        "id": "USRW30500001"}], "length": 255.252, "href": "spotify:track:1sn6iOK93jnp0Hn5BnNOXy",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "disc-number": "1", "name": "Best Of You"}, {"available": true,
+        "track-number": "3", "popularity": "0.76000", "external-ids": [{"type": "isrc",
+        "id": "USRW29600011"}], "length": 250.259, "href": "spotify:track:07q6QTQXyPRCf7GbLakRPr",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "disc-number": "1", "name": "Everlong"}, {"available": true,
+        "track-number": "4", "popularity": "0.67000", "external-ids": [{"type": "isrc",
+        "id": "USRW30700007"}], "length": 267.645, "href": "spotify:track:6HNruFQlzQx4ulL4ppRLYI",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "disc-number": "1", "name": "The Pretender"}, {"available": true,
+        "track-number": "5", "popularity": "0.72000", "external-ids": [{"type": "isrc",
+        "id": "USRW29600007"}], "length": 259.252, "href": "spotify:track:7u5dBtASrtOuBTTZjJrvuJ",
+        "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters"}], "disc-number": "1", "name": "My Hero"}, {"available": true, "track-number":
+        "6", "popularity": "0.73000", "external-ids": [{"type": "isrc", "id": "USRW39900002"}],
+        "length": 235.068, "href": "spotify:track:0mWiuXuLAJ3Brin3Or2x6v", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Learn To Fly"}, {"available": true, "track-number":
+        "7", "popularity": "0.68000", "external-ids": [{"type": "isrc", "id": "USRW30200005"}],
+        "length": 268.272, "href": "spotify:track:4xanWVQIzdCf51mg8cd1cQ", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Times Like These"}, {"available": true, "track-number":
+        "8", "popularity": "0.67000", "external-ids": [{"type": "isrc", "id": "USRW29600001"}],
+        "length": 231.094, "href": "spotify:track:43TxY9bYSyZ4QRPA0UJddL", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Monkey Wrench"}, {"available": true, "track-number":
+        "9", "popularity": "0.63000", "external-ids": [{"type": "isrc", "id": "USRW29500002"}],
+        "length": 132.502, "href": "spotify:track:04Jk0uP8SbDHLyAKfRctNQ", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Big Me"}, {"available": true, "track-number":
+        "10", "popularity": "0.61000", "external-ids": [{"type": "isrc", "id": "USRW39900004"}],
+        "length": 201.054, "href": "spotify:track:3Y8X0tMSEKZt7rOHDwCrtt", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Breakout"}, {"available": true, "track-number":
+        "11", "popularity": "0.62000", "external-ids": [{"type": "isrc", "id": "USRW30700010"}],
+        "length": 228.611, "href": "spotify:track:4Hv5jUXVQveCj36wN6dPmD", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Long Road To Ruin"}, {"available": true, "track-number":
+        "12", "popularity": "0.58000", "external-ids": [{"type": "isrc", "id": "USRW29500014"}],
+        "length": 233.343, "href": "spotify:track:1KZVbkPnQYwaN5OeAHGa4P", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "This Is A Call"}, {"available": true, "track-number":
+        "13", "popularity": "0.58000", "external-ids": [{"type": "isrc", "id": "USRW30600044"}],
+        "length": 242.65, "href": "spotify:track:1eoQNKgUm4dX9nk0876FsL", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Skin And Bones"}, {"available": true, "track-number":
+        "14", "popularity": "0.66000", "external-ids": [{"type": "isrc", "id": "USRC10900528"}],
+        "length": 278.521, "href": "spotify:track:3KsatAMRt1a7iryhWt5I8U", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Wheels"}, {"available": true, "track-number":
+        "15", "popularity": "0.57000", "external-ids": [{"type": "isrc", "id": "USRW30900001"}],
+        "length": 226.911, "href": "spotify:track:74QDbj3qdHQhofu01RyFtT", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Word Forward"}, {"available": true, "track-number":
+        "16", "popularity": "0.68000", "external-ids": [{"type": "isrc", "id": "USRW30900002"}],
+        "length": 251.2, "href": "spotify:track:3QmesrvdbPjwf7i40nht1D", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "disc-number": "1", "name": "Everlong - Acoustic Version"}], "href": "spotify:album:1zCNrbPpz5OLSr6mSpPdKm",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CR CU CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO
+        FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE
+        IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK
+        LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW
+        MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC
+        VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 13:30:34 GMT
+- request:
+    method: get
+    uri: http://ws.spotify.com/lookup/1/.json?uri=spotify:artist:4YrKBkKSVeqDamzBPWVnSJ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 20:06:07 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 13:47:44 GMT
+      Last-Modified:
+      - Wed, 05 Dec 2012 23:38:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '114'
+      X-Varnish:
+      - 1827400452 1826250464
+      Age:
+      - '22703'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"info": {"type": "artist"}, "artist": {"href": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Basement Jaxx"}}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 20:06:07 GMT
+- request:
+    method: get
+    uri: http://ws.spotify.com/lookup/1/.json?extras=albumdetail&uri=spotify:artist:4YrKBkKSVeqDamzBPWVnSJ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 20:27:32 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 20:27:30 GMT
+      Last-Modified:
+      - Thu, 06 Dec 2012 17:00:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '77590'
+      X-Varnish:
+      - 1827466969 1827466893
+      Age:
+      - '2'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"info": {"type": "artist"}, "artist": {"albums": [{"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Jaxx Unreleased II", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "5051083056144"}],
+        "released": "2010", "href": "spotify:album:4VmkkYn0IMJovQUWORavXf", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB
+        BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ
+        FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM
+        HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP
+        KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM
+        PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE
+        SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO
+        TR TT TV TW TZ UA UG UM UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Betta Daze EP", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "5051083054645"}], "released": "2010", "href": "spotify:album:2wXlxO0MUdcvLM50zYGYd0",
+        "availability": {"territories": "worldwide"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Camberwell
+        EP", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "5051083054652"}],
+        "released": "2010", "href": "spotify:album:6cQ8Kir54FIfTVgtVFPHXt", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB
+        BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ
+        FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM
+        HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP
+        KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM
+        PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE
+        SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO
+        TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW
+        ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "EP1", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "5051083054553"}], "released": "2010", "href": "spotify:album:4CNLOvG2S5WzUGIVVEtLjA",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO
+        NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW
+        SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "EP3", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "5051083054591"}], "released":
+        "2010", "href": "spotify:album:4mh4v9w12K9W5Ig3yBvYvl", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI
+        BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU
+        CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE
+        IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB
+        LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT
+        MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK
+        PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL
+        SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA
+        UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Junction EP", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "5051083054676"}], "released": "2010", "href": "spotify:album:6RkD7X35gu7mndKIEbTETt",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO
+        NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW
+        SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Sleazycheeks EP", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "5051083054614"}],
+        "released": "2010", "href": "spotify:album:2JSKe956535lOvkJXplClS", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB
+        BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ
+        FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM
+        HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP
+        KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM
+        PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE
+        SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO
+        TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW
+        ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Summer Daze EP", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "5051083054560"}], "released": "2010", "href": "spotify:album:36IOsN6LAZLn8Mauc3z77g",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO
+        NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW
+        SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Urban Haze EP", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "5051083054621"}],
+        "released": "2010", "href": "spotify:album:062ecKROUJVfvSA4nLZkN8", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB
+        BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ
+        FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM
+        HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP
+        KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM
+        PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE
+        SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO
+        TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW
+        ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "My Turn E.P.", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "634904047566"}], "released": "2009", "href": "spotify:album:4nZj3cUjZOYh9C5HIN5f3f",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO
+        NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW
+        SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UM UY UZ VA VC VE VG VI VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Scars", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "634904045364"}], "released": "2009", "href": "spotify:album:4tWSeJfRAzwcevIygsdqAX",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO
+        NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW
+        SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UM UY UZ VA VC VE VG VI VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "My Turn", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "617465235658"}], "released": "2009", "href": "spotify:album:591AvbWuKalmYnxTmISYOY",
+        "availability": {"territories": "US"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Zephyr", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904047863"}],
+        "released": "2009", "href": "spotify:album:2IZYrGPqauflJX2B9N7RW1", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB
+        BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ
+        FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM
+        HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP
+        KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM
+        PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE
+        SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO
+        TR TT TV TW TZ UA UG UM UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Zephyr", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "617465235153"}], "released": "2009", "href": "spotify:album:6RoDt0aMxWJk8bddYdjQxV",
+        "availability": {"territories": "US"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Crazy Itch
+        Radio", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904920562"}], "released": "2006", "href": "spotify:album:0bAOE3qXBiEdtWUF9i6PCN",
+        "availability": {"territories": "US"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Crazy Itch
+        Radio", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904020569"}], "released": "2006", "href": "spotify:album:0vQbb9UeAU7R8wk3ZAjNx6",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ
+        IR IS IT JE JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO
+        NP NR NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE
+        SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ
+        UA UG UY UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Crazy
+        Itch Radio", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904020583"}], "released": "2006", "href": "spotify:album:2EsV8p9xYfD1x5HB0G9QuE",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Crazy Itch
+        Radio", "artist": "Basement Jaxx", "released": "2006", "href": "spotify:album:5oRaDfiypJ8shaT9qcDBxd",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "The Singles
+        Part II", "artist": "Basement Jaxx", "released": "2006", "href": "spotify:album:2rHXrKVd30NAaJM8112zTE",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "The Singles",
+        "artist": "Basement Jaxx", "released": "2005", "href": "spotify:album:1VbbrtyVnfcwxRKga7HL1c",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "The Singles",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904018726"}],
+        "released": "2005", "href": "spotify:album:3yBq1HueFUlpggNHPUrRRE", "availability":
+        {"territories": "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "The Singles", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904018733"}],
+        "released": "2005", "href": "spotify:album:7cQ3HqZc1Rz1H6Wcm0IhW4", "availability":
+        {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ BA BB BD BE BF
+        BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO CR CU CX CY CZ
+        DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI GL
+        GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE JM
+        JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA
+        MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ
+        OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG UY UZ
+        VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Kish
+        Kash", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "724359387857"}],
+        "released": "2003", "href": "spotify:album:2E0vE3yBTuc2nKqvE89Bmm", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Kish Kash", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904017422"}], "released":
+        "2003", "href": "spotify:album:0vncrFsYHOCvSKsDPwLXHh", "availability": {"territories":
+        "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Span Thang EP", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "5050294113561"}], "released": "2001", "href": "spotify:album:5OT7WPcCjYQkxmuFOzIHO7",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Rooty", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904014322"}],
+        "released": "2001", "href": "spotify:album:6Gv1fOIDgnEfT0RnoUJ65Z", "availability":
+        {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ BA BB BD BE BF
+        BG BH BI BJ BO BR BS BT BW BY BZ CA CC CD CF CG CH CL CM CN CO CR CU CX CY
+        CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI
+        GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE
+        JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY
+        MA MC MD ME MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR
+        NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RS RU RW SA SB SC SD SE SG
+        SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TR TV TW TZ UA UG
+        UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Rooty",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "724381042359"}],
+        "released": "2001", "href": "spotify:album:6ChuM84W0d7xNqVdKkhMcJ", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Rooty", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904014384"}], "released":
+        "2001", "href": "spotify:album:7C6fuwe0uiJLbhKGWJViJx", "availability": {"territories":
+        "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ BA BB BD BE BF BG BH BI BJ BO BR
+        BS BT BW BY BZ CA CC CF CG CH CL CM CN CO CR CU CX CY CZ DE DJ DK DM DO DZ
+        EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GW
+        GY HK HM HN HR HT HU ID IE IL IN IQ IR IS IT JM JO KE KG KH KI KM KN KP KR
+        KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MK ML MN MO MQ MV
+        MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PG PH PK PL PM PR
+        PT PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY
+        SZ TC TD TG TH TJ TK TM TR TV TW TZ UA UG UY UZ VA VC VE VG VI VN VU WF WS
+        YE ZA ZM ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Remedy", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "634904012984"}], "released": "2004", "href": "spotify:album:4SpZFImfPagNr7cLc8Wnoh",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BR BS BT BV BW BY BZ CA CC
+        CD CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG
+        EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS
+        GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE
+        KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME
+        MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI
+        NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS
+        RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG
+        TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM UY UZ VA VC VE VG VI VN VU WF
+        WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Remedy", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "724386387653"}], "released":
+        "1999", "href": "spotify:album:1tUZ8ShP9nVdYNeMVG5NTr", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Remedy", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "634904012922"}], "released": "1999", "href": "spotify:album:6G9fHYDCoyEErUkHrFYfs4",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IN IQ IR IS
+        IT JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP
+        NR NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RS RU RW SA SB SC SD SE
+        SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TR TV TW TZ UA
+        UG UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Raindrops
+        (Jaxx Club Boot)", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "5051083061582"}], "released": "2011", "href": "spotify:album:2KTVz9iBB5yK335JTWErer",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO
+        NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW
+        SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Dracula", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "5051083056397"}], "released":
+        "2010", "href": "spotify:album:1rk6Xn8Kod7DQH1Q4wOfRg", "availability": {"territories":
+        "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Feelings Gone (feat. Sam Sparro)", "artist": "Basement Jaxx", "external-ids":
+        [{"type": "upc", "id": "634904046163"}], "released": "2009", "href": "spotify:album:74yy7CzlVUFyE6FAwkO5ZP",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO
+        NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW
+        SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UM UY UZ VA VC VE VG VI VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Raindrops", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "634904044466"}], "released": "2009", "href": "spotify:album:2pCSZKXIOTd60rPXx0MFIx",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IN IQ IR IS
+        IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY
+        MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU
+        NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI
+        SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US
+        UY UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Raindrops",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904144463"}],
+        "released": "2009", "href": "spotify:album:2QTBhnBRRVTtkQvsw6dCAG", "availability":
+        {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ BA BB BD BE BF
+        BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO CR CU CX CY CZ
+        DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GH GI GL GM
+        GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IN IQ IR IS IT JM JO KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD MG MK
+        ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PG
+        PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO
+        SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US UY UZ VA VC VE
+        VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Planet 3 EP", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "609008288962"}],
+        "released": "2009", "href": "spotify:album:4L5jBUasoZ8PEK99ozlywJ", "availability":
+        {"territories": "AU NZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Hey U", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "609008244869"}], "released":
+        "2007", "href": "spotify:album:7t09dzfM3VnqmP6H7P8zsj", "availability": {"territories":
+        "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ BA BB BD BE BF BG BH BI BJ BO BR
+        BS BT BW BY BZ CA CC CF CG CH CL CM CN CO CR CU CX CY CZ DE DJ DK DM DO DZ
+        EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GT
+        GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE JM JO JP KE KG KH KI
+        KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MK ML
+        MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PG PH
+        PK PL PM PR PT PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO
+        SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG UY UZ VA VC VE VG
+        VI VN VU WF WS YE ZA ZM ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Make Me Sweat", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "5050954155580"}],
+        "released": "2007", "href": "spotify:album:6vIV3JMobkIlujKiVW09Hh", "availability":
+        {"territories": "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Jaxx Unreleased", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "5051083005340"}],
+        "released": "2006", "href": "spotify:album:5zrsdzl8Gu5TVGY5ukgMhi", "availability":
+        {"territories": "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Take Me Back To Your House
+        (Balti Skool Mix)", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "634904825362"}], "released": "2006", "href": "spotify:album:71X8bpxczD2St3yRSUqrtq",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AW AZ BA
+        BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CD CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ
+        IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS
+        LT LU LV LY MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL
+        NO NP NR NU OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE
+        SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ
+        UA UG US UY UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Take Me Back To Your House (Felix B Big Houz Dub)", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904925369"}], "released":
+        "2006", "href": "spotify:album:2SK9YVQrN5XSWji8VpghZC", "availability": {"territories":
+        "AD AE AF AG AL AM AN AO AR AS AT AW AZ BA BB BD BE BF BG BH BI BJ BO BR BS
+        BT BW BY BZ CA CC CD CF CG CH CL CM CN CO CR CU CX CY CZ DE DJ DK DM DO DZ
+        EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GT
+        GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE JM JO JP KE KG KH KI
+        KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD MG MK ML MN
+        MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU OM PA PE PG PH PK PL
+        PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US UY UZ VA VC VE VG VI VN
+        VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Take Me Back To Your House
+        (Kurd Maverick Remix)", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "634904525361"}], "released": "2006", "href": "spotify:album:7kFtQxDgj6wTUh02xgpKIq",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AW AZ BA
+        BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CD CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ
+        IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS
+        LT LU LV LY MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL
+        NO NP NR NU OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE
+        SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ
+        UA UG US UY UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Take Me Back To Your House (Kwality Kontrol Remix)", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904725365"}], "released":
+        "2006", "href": "spotify:album:64Y7cWNJ3mMPKRdBVD8xCQ", "availability": {"territories":
+        "AD AE AF AG AL AM AN AO AR AS AT AW AZ BA BB BD BE BF BG BH BI BJ BO BR BS
+        BT BW BY BZ CA CC CD CF CG CH CL CM CN CO CR CU CX CY CZ DE DJ DK DM DO DZ
+        EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GT
+        GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE JM JO JP KE KG KH KI
+        KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD MG MK ML MN
+        MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU OM PA PE PG PH PK PL
+        PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US UY UZ VA VC VE VG VI VN
+        VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Take Me Back To Your House
+        (Remix Single 1)", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "634904225360"}], "released": "2006", "href": "spotify:album:2dw3OuutHDs8GGdv2Ab4R7",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AW AZ BA
+        BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CD CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ
+        IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS
+        LT LU LV LY MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL
+        NO NP NR NU OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE
+        SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ
+        UA UG US UY UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Take Me Back To Your House (Remix Single 2)", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904325367"}], "released":
+        "2006", "href": "spotify:album:7CkLWLuXswuDQbLtq07X0l", "availability": {"territories":
+        "AD AE AF AG AL AM AN AO AR AS AT AW AZ BA BB BD BE BF BG BH BI BJ BO BR BS
+        BT BW BY BZ CA CC CD CF CG CH CL CM CN CO CR CU CX CY CZ DE DJ DK DM DO DZ
+        EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GT
+        GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE JM JO JP KE KG KH KI
+        KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD MG MK ML MN
+        MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU OM PA PE PG PH PK PL
+        PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US UY UZ VA VC VE VG VI VN
+        VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Take Me back To Your House
+        (Jaxx Extended Mix)", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "634904425364"}], "released": "2006", "href": "spotify:album:1iw0wZ5y3nMJP0tZWGCl8h",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AW AZ BA
+        BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CD CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ
+        IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS
+        LT LU LV LY MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL
+        NO NP NR NU OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE
+        SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ
+        UA UG US UY UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Take Me back To Your House (Speaker Junk Remix)", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904625368"}], "released":
+        "2006", "href": "spotify:album:0ctqnxZhgrUbwFLkHO8HBe", "availability": {"territories":
+        "AD AE AF AG AL AM AN AO AR AS AT AW AZ BA BB BD BE BF BG BH BI BJ BO BR BS
+        BT BW BY BZ CA CC CD CF CG CH CL CM CN CO CR CU CX CY CZ DE DJ DK DM DO DZ
+        EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GT
+        GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE JM JO JP KE KG KH KI
+        KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD MG MK ML MN
+        MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU OM PA PE PG PH PK PL
+        PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US UY UZ VA VC VE VG VI VN
+        VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Hush Boy", "artist": "Basement
+        Jaxx", "released": "2006", "href": "spotify:album:4OxWZvWM3xVFQOtrVCvaem",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Hush Boy",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "609008243060"}],
+        "released": "2006", "href": "spotify:album:7gxFVKuc5tQQ5JAWpvZido", "availability":
+        {"territories": "AU"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Hush Boy", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904224165"}], "released":
+        "2006", "href": "spotify:album:4kN5xI48IqTcb5oUA2K6hf", "availability": {"territories":
+        "GB GG IE IM JE"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Hush Boy", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "634904124168"}], "released": "2006", "href": "spotify:album:7GRt6m2QW4oN1Yq0CvUQRl",
+        "availability": {"territories": "GB GG IE IM JE"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Take
+        Me Back To Your House", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "634904925383"}], "released": "2006", "href": "spotify:album:1rLFcjhiTQT229avwyrtVk",
+        "availability": {"territories": "AU NZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Take Me Back
+        To Your House", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "634904825386"}], "released": "2006", "href": "spotify:album:290frmvoEAdUtrwypOdMkD",
+        "availability": {"territories": "AU NZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Take Me Back
+        To Your House", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "634904725389"}], "released": "2006", "href": "spotify:album:6jFu65N7DTJhSEzrhGlpX1",
+        "availability": {"territories": "AU NZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Take Me Back
+        To Your House", "artist": "Basement Jaxx", "released": "2006", "href": "spotify:album:6B7Bp1q24wIqrl1zm5X5Eg",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Take Me Back
+        To Your House", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "634904224264"}], "released": "2006", "href": "spotify:album:3J4xa9wXB6V5F7zX1KmIHK",
+        "availability": {"territories": "AT BE CH DK ES FI FR GR IT LU NL NO PT SE"}},
+        "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Take Me Back To Your House", "artist": "Basement Jaxx", "external-ids":
+        [{"type": "upc", "id": "634904324261"}], "released": "2006", "href": "spotify:album:4inVggvwqu09sKjUrwmBwO",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Fly Life",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "5050954175083"}],
+        "released": "2006", "href": "spotify:album:1Knt70t2HMtPo5iorwEg7a", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Fly Life Xtra", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "5050954118264"}],
+        "released": "2005", "href": "spotify:album:23ok3ayhhYk2UPw6fX9c8V", "availability":
+        {"territories": "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Lucky Star", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "724383888757"}], "released":
+        "2005", "href": "spotify:album:4MkhY16ww37dboWE2NHjKv", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Do Your Thing", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "609008237755"}], "released": "2005", "href": "spotify:album:2cmcuFJVuhzFzHYi264Ofo",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GD GE GF
+        GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IL IN IQ IR IS IT JM
+        JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA
+        MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ
+        OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US UY
+        UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Do
+        Your Thing", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904122027"}], "released": "2005", "href": "spotify:album:3riUvxVePBHEjexF6GfF80",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ
+        IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS
+        LT LU LV LY MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL
+        NO NP NR NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD
+        SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW
+        TZ UA UG UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Do Your Thing", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "609008237953"}], "released": "2005", "href": "spotify:album:3BgCtfIMzTDelCThZfEWIZ",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GD GE GF
+        GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IL IN IQ IR IS IT JM
+        JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA
+        MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ
+        OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US UY
+        UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Do
+        Your Thing", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904122065"}], "released": "2005", "href": "spotify:album:4ykazGDKb1XgA4fomxak1F",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ
+        IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS
+        LT LU LV LY MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL
+        NO NP NR NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD
+        SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW
+        TZ UA UG UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Do Your Thing", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "609008237854"}], "released": "2005", "href": "spotify:album:5E61aWNKKTTw6z9nsFh2ME",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GD GE GF
+        GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IL IN IQ IR IS IT JM
+        JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA
+        MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ
+        OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US UY
+        UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Do
+        Your Thing", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "609008237656"}], "released": "2005", "href": "spotify:album:6sRHhy8bKhKDYl2Y1Z0ILW",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GD GE GF
+        GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IL IN IQ IR IS IT JM
+        JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA
+        MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ
+        OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG US UY
+        UZ VA VC VE VG VI VN VU WF WS ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Do
+        Your Thing", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904122096"}], "released": "2005", "href": "spotify:album:7F77oDhmAYdTy0XpAQG7t1",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ
+        IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS
+        LT LU LV LY MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL
+        NO NP NR NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD
+        SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW
+        TZ UA UG UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Where''s Your Head At", "artist": "Basement Jaxx", "external-ids":
+        [{"type": "upc", "id": "094634153157"}], "released": "2005", "href": "spotify:album:7bB9zjl2C81tUB4v4GlSUx",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "U Don''t Know
+        Me", "artist": "Basement Jaxx", "released": "2005", "href": "spotify:album:1THIFRpn89tU1GoSZw53EJ",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "U Don\u2019t
+        Know Me", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904121587"}], "released": "2005", "href": "spotify:album:4lb09wbiuv8SMUNzRYmSf1",
+        "availability": {"territories": "GB GG IE IM JE"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "U
+        Don\u2019t Know Me", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "634904121556"}], "released": "2005", "href": "spotify:album:6zclthMfbgGBPIUQmrPajo",
+        "availability": {"territories": "GB GG IE IM JE"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Oh
+        My Gosh", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904120955"}], "released": "2005", "href": "spotify:album:4g3WqaedscRPZRnCg9hQuM",
+        "availability": {"territories": "US"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Oh My Gosh",
+        "artist": "Basement Jaxx", "released": "2005", "href": "spotify:album:6VDSTMPnsSI9UobRftPHJz",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Oh My Gosh",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904120924"}],
+        "released": "2005", "href": "spotify:album:1HSSAN7Mk9WQYJwyCn8bX8", "availability":
+        {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ BA BB BD BE BF
+        BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO CR CU CX CY CZ
+        DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI GL
+        GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE JM
+        JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA
+        MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ
+        OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD SE SG SH SI SK
+        SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA UG UY UZ
+        VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Oh
+        My Gosh", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904120993"}], "released": "2005", "href": "spotify:album:7FDIZdCYrhwhqvAQOeCzkx",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IN IQ IR IS
+        IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY
+        MA MC MD ME MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR
+        NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RS RU RW SA SB SC SD SE SG
+        SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW TZ UA
+        UG US UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Oh
+        My Gosh", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904120962"}], "released": "2005", "href": "spotify:album:4K4JcbMtrhjpopi68X1SqY",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CF CG CH CL CM CN CO
+        CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE
+        GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ
+        IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS
+        LT LU LV LY MA MC MD MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL
+        NO NP NR NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RU RW SA SB SC SD
+        SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN TR TV TW
+        TZ UA UG UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Plug It In", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "634904118020"}], "released": "2004", "href": "spotify:album:7fJwe9CptQAMCh980fztzt",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CD CF CG CH CL CM CN
+        CO CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD
+        GE GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN
+        IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR
+        LS LT LU LV LY MA MC MD ME MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG
+        NI NL NO NP NR NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RS RU RW SA
+        SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TN
+        TR TV TW TZ UA UG UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info":
+        {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Good Luck", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "094634455954"}], "released": "2005", "href": "spotify:album:194iT3lWo2hEMZNTDtOUZn",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Good Luck",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904119027"}],
+        "released": "2004", "href": "spotify:album:31S0JuYCkp3LRcJ4Gos5rK", "availability":
+        {"territories": "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Good Luck", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904117825"}], "released":
+        "2004", "href": "spotify:album:6lPqmylaRiHU6De2rIySNr", "availability": {"territories":
+        "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Lucky Star (feat. Dizzee Rascal)", "artist": "Basement Jaxx", "external-ids":
+        [{"type": "upc", "id": "634904117221"}], "released": "2003", "href": "spotify:album:5K7r3Yt1SYieHflUM1ZENM",
+        "availability": {"territories": "worldwide"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Get
+        Me Off", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "094634153058"}], "released": "2005", "href": "spotify:album:4VyQg9QKF5JlLGxbV5HbsX",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Get Me Off",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904114695"}],
+        "released": "2002", "href": "spotify:album:3cbUkE6ZR8Alqg8nzuLapm", "availability":
+        {"territories": "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Get Me Off", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904114626"}], "released":
+        "2002", "href": "spotify:album:6arYFq8YqA8HgqEVDMtdUG", "availability": {"territories":
+        "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Where\u2019s Your Head At", "artist": "Basement Jaxx", "external-ids":
+        [{"type": "upc", "id": "634904114039"}], "released": "2001", "href": "spotify:album:1Fmve6G1q6kFRYceGttj18",
+        "availability": {"territories": "worldwide"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Jus
+        1 Kiss", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "094634456258"}], "released": "2005", "href": "spotify:album:05OjuM37pp5niPlpQApxRF",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Jus 1 Kiss",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904113629"}],
+        "released": "2001", "href": "spotify:album:1Mkvdw6Thd1VxYKs1TrRvv", "availability":
+        {"territories": "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Jus 1 Kiss", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904113698"}], "released":
+        "2001", "href": "spotify:album:18S7057DBrMmxv3DfDnnTn", "availability": {"territories":
+        "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Romeo", "artist": "Basement Jaxx", "external-ids": [{"type": "upc",
+        "id": "724383878352"}], "released": "2005", "href": "spotify:album:3lA2Aj2FZXWEJatGwMsIeX",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Romeo", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904113223"}],
+        "released": "2001", "href": "spotify:album:26CDIhvotLcNC4z97M7P1u", "availability":
+        {"territories": "worldwide"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Bingo Bango", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "724383871650"}],
+        "released": "2006", "href": "spotify:album:2eWy6X0M8qjiez9GRMeX17", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Bingo Bango", "artist":
+        "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904112028"}],
+        "released": "2000", "href": "spotify:album:3BLjwFkMc2kL9dxa9s6Lad", "availability":
+        {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ BA BB BD BE BF
+        BG BH BI BJ BO BR BS BT BW BY BZ CA CC CD CF CG CH CL CM CN CO CR CU CX CY
+        CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI
+        GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE
+        JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY
+        MA MC MD ME MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR
+        NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RS RU RW SA SB SC SD SE SG
+        SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TR TV TW TZ UA UG
+        UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Jump
+        n'' Shout", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "094634456159"}], "released": "2005", "href": "spotify:album:6auOoGYwGwiWR1GLN8nxaa",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Jump N'' Shout",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "634904111625"}],
+        "released": "1999", "href": "spotify:album:72QvaTgylGuqn98LcgiAGi", "availability":
+        {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ BA BB BD BE BF
+        BG BH BI BJ BO BR BS BT BW BY BZ CA CC CD CF CG CH CL CM CN CO CR CU CX CY
+        CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI
+        GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE
+        JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY
+        MA MC MD ME MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR
+        NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RS RU RW SA SB SC SD SE SG
+        SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TR TV TW TZ UA UG
+        UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Rendez-Vu",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "094634456050"}],
+        "released": "2005", "href": "spotify:album:44KPjd3C6wmmu7Dv2sNV8t", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Rendez-vu", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "634904111021"}], "released":
+        "1999", "href": "spotify:album:0tAFmk22BtVIoZ9s6TVa4G", "availability": {"territories":
+        "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ BA BB BD BE BF BG BH BI BJ BO BR
+        BS BT BW BY BZ CA CC CD CF CG CH CL CM CN CO CR CU CX CY CZ DE DJ DK DM DO
+        DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR
+        GT GW GY HK HM HN HR HT HU ID IE IL IM IN IQ IR IS IT JE JM JO JP KE KG KH
+        KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MK
+        ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PG
+        PH PK PL PM PR PT PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN
+        SO SR ST SV SY SZ TC TD TG TH TJ TK TM TR TV TW TZ UA UG UY UZ VA VC VE VG
+        VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Red Alert", "artist": "Basement
+        Jaxx", "external-ids": [{"type": "upc", "id": "017046627450"}], "released":
+        "2005", "href": "spotify:album:0lOknMFLCCWMfgWWdRSeU2", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ",
+        "name": "Red Alert", "artist": "Basement Jaxx", "external-ids": [{"type":
+        "upc", "id": "634904110024"}], "released": "1999", "href": "spotify:album:0VURhgb8v17Jpr34kpfm7C",
+        "availability": {"territories": "worldwide"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "Red
+        Alert", "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id":
+        "634904110093"}], "released": "1999", "href": "spotify:album:7tQWTAAtI6K0fOOIpwTSa5",
+        "availability": {"territories": "worldwide"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name": "EP2",
+        "artist": "Basement Jaxx", "external-ids": [{"type": "upc", "id": "5050023014251"}],
+        "released": "1996", "href": "spotify:album:6d7YhbinT51CbKltEuhAlF", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7rV4AOfNJPQrmmbfg8Ed0M", "name": "The Many Moods of Slarta
+        John", "artist": "Slarta John", "released": "2012", "href": "spotify:album:2s9lut50vkDzNoa12m7S3m",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO
+        NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW
+        SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"name": "Azuli
+        presents Miami 2000", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "5055283409915"}], "released": "2012", "href": "spotify:album:2cXUZv3zzGf591ikH23vhJ",
+        "availability": {"territories": "worldwide"}}, "info": {"type": "album"}},
+        {"album": {"name": "Underground Tumps VII", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "886296094608"}], "released": "2011", "href": "spotify:album:3ROZrYb6d2eleRH4lIfbTi",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:273hYShXXwl6cVnU5urmHW", "name": "Deejay Story",
+        "artist": "Artisti Vari", "external-ids": [{"type": "upc", "id": "00600753372906"}],
+        "released": "2011", "href": "spotify:album:7DrazjlVMTWc4jYCHOPlNd", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"name": "FuturePOP
+        3.0", "artist": "Various Artists", "released": "2011", "href": "spotify:album:7h4Bda400pXv0JVjrUN7HZ",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Club Azuli 2007 - Future Sound Of The Dance Underground", "artist":
+        "Various Artists", "released": "2011", "href": "spotify:album:4hw0Uv4ewq8IJgsmH5U2Js",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO JP KE KG KH KI
+        KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK
+        ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR
+        NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB
+        SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL
+        TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT
+        ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"name": "Renaissance
+        presents Nic Fanciulli - Volume 1", "artist": "Various Artists", "released":
+        "2011", "href": "spotify:album:5Z7Nyyo3589QawvWq2Llgp", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"name": "ZM High School Hits",
+        "artist": "Various Artists", "external-ids": [{"type": "upc", "id": "00600753354032"}],
+        "released": "2011", "href": "spotify:album:0UiS9ilHFrZkKTL8PdXhrX", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"name": "Attack
+        The Block", "artist": "Various Artists", "external-ids": [{"type": "upc",
+        "id": "00602527731391"}], "released": "2011", "href": "spotify:album:0c4uFYwYtFQqg7cwK0QJ9x",
+        "availability": {"territories": "CA US"}}, "info": {"type": "album"}}, {"album":
+        {"name": "Ministry of Sound The Annual: 10 Years", "artist": "Various Artists",
+        "external-ids": [{"type": "upc", "id": "00602527724553"}], "released": "2011",
+        "href": "spotify:album:22v1LqFY88BXCD7GNM4gLA", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"name": "Original Music From
+        The Motion Picture Attack The Block", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "00602527726403"}], "released": "2011", "href": "spotify:album:0vRSySNAlXXBgbtYkZhUzw",
+        "availability": {"territories": "AT AU CH DE EE FI FR GB HK HR HU IE IN LT
+        LV MY NL NZ RU SG TW UA ZA"}}, "info": {"type": "album"}}, {"album": {"name":
+        "De Maxx - Long Player 20", "artist": "Various Artists", "released": "2011",
+        "href": "spotify:album:46H7JtREmrPAzM7hkdEd9n", "availability": {"territories":
+        "BE LU"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:27byMdaUzUfN0LFqrxrb1Z",
+        "name": "Made in Miami", "artist": "DJ Oscar G", "external-ids": [{"type":
+        "upc", "id": "804616552720"}], "released": "2011", "href": "spotify:album:3ps8At8rXPHJSU9k0w0fFI",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GS GT GU
+        GW GY HK HM HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN
+        KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD MG MH MK ML MM MN
+        MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM
+        PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RU RW SA SB SC SD SE SG
+        SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR
+        TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        "info": {"type": "album"}}, {"album": {"name": "Epic", "artist": "Various
+        Artists", "external-ids": [{"type": "upc", "id": "00600753322017"}], "released":
+        "2010", "href": "spotify:album:02YBhUrbP29ROlSlPMPZpd", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:3YJjBsuyluzcdlYVSGzyEz",
+        "name": "Runner\u2019s World Playlist No. 3 : Pop Mix Power Run", "artist":
+        "Beats Inc.", "released": "2010", "href": "spotify:album:3LchZJlSUNZkioQNjw2EpD",
+        "availability": {"territories": "GB IE"}}, "info": {"type": "album"}}, {"album":
+        {"name": "It''s Like That!", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "00600753294437"}], "released": "2010", "href": "spotify:album:0jS1broGhHhL12fnp9RHKp",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Crave Volume 4", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "00600753279052"}], "released": "2010", "href": "spotify:album:6uGlVuxUOsyLkxcOixafLS",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:36pbjwWi9ZDLZzSuLvY1uV", "name": "Total Music:
+        Dance Classics Vol. 1", "artist": "Various Artists - Mixed by Johnny Vicious",
+        "external-ids": [{"type": "upc", "id": "00651249084124"}], "released": "2010",
+        "href": "spotify:album:5fCk8jQjIZJjC55wgejI88", "availability": {"territories":
+        "US"}}, "info": {"type": "album"}}, {"album": {"name": "Alle 40 Goed - 90''s",
+        "artist": "Various Artists", "released": "2010", "href": "spotify:album:1RqlrfVjLbfMnk94QarJgw",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "The Workout Mix 2011", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "00600753318782"}], "released": "2010", "href": "spotify:album:0BF5unOF53BSV4ijhXtozC",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Radio Deejay? Yes! vol.2", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "00602527302539"}], "released": "2009", "href": "spotify:album:1keI72rZQL2U1JHiYmQG1K",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Let''s Go Crazy", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "885012002255"}], "released": "2009", "href": "spotify:album:2sDphVMueyDCHZZvktsqYK",
+        "availability": {"territories": "GB IE"}}, "info": {"type": "album"}}, {"album":
+        {"name": "Live Lounge 4", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "884977371925"}], "released": "2009", "href": "spotify:album:7v4h3v0mTTZkxpL96ggZVn",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:3UbnYRfDPL3L74oFrJJxxv", "name": "Got The Bug
+        2", "artist": "Bugz in the Attic", "released": "2009", "href": "spotify:album:1viQbBWdjbq7VoQngesdd9",
+        "availability": {"territories": "GB IE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:3UbnYRfDPL3L74oFrJJxxv", "name": "Got The Bug
+        2", "artist": "Bugz in the Attic", "external-ids": [{"type": "upc", "id":
+        "730003112645"}], "released": "2009", "href": "spotify:album:3ZcJdJN7mWB9USrSltD2rX",
+        "availability": {"territories": "GB IE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:73rKG9PlOR46yTmu2IqnSG", "name": "Toolroom Knights",
+        "artist": "Jerry Ropero", "released": "2009", "href": "spotify:album:6OPdG7rZ2Z9z09ZEohKf0s",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:2wcQNQeFXUFieqt0S68JVM", "name": "ATFC In The
+        House London ''10", "artist": "ATFC In The House London ''10", "external-ids":
+        [{"type": "upc", "id": "826194155346"}], "released": "2009", "href": "spotify:album:5aAghK96bVKtKKMNz4yfqc",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Club Hits vol. 1", "artist": "Various Artists", "released": "2009",
+        "href": "spotify:album:5JO6EWZhnzT7Cy2OAZCx5P", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"name": "Club Hits vol. 1", "artist":
+        "Various Artists", "released": "2009", "href": "spotify:album:6M2M2t8CgInLQRZBfGWVFR",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Ministry of Sound Anthems II", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "00602527212869"}], "released": "2009", "href": "spotify:album:1h7xDum308PJVnL0N953YF",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Ministry of Sound presents Clubbers Guide to Spring 2009", "artist":
+        "Various Artists", "external-ids": [{"type": "upc", "id": "00602527175416"}],
+        "released": "2009", "href": "spotify:album:2pRfCwGD1G93pwHHt42mxg", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"name": "Arriba
+        La Cumbia!", "artist": "Various Artists", "external-ids": [{"type": "upc",
+        "id": "5410377901384"}], "released": "2008", "href": "spotify:album:37UznznnHKD4GAfRf8Kcob",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CC CD CF
+        CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER
+        ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU
+        GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH
+        KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH
+        MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP
+        NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA
+        SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK
+        TL TM TN TO TR TT TV TW TZ UA UG UM UY UZ VA VC VE VG VI VN VU WF WS YE YT
+        ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"name": "Ultra Chilled
+        06", "artist": "Various Artists", "external-ids": [{"type": "upc", "id": "617465224850"}],
+        "released": "2008", "href": "spotify:album:4MHnAuK4OpxDpqt2a3cdet", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"name": "Dance
+        Music Is Vital - Best of 2007", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "5051083011969"}], "released": "2007", "href": "spotify:album:16pGUVXjgbNKRbwVDJUuyZ",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Vexille", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "609008302804"}], "released": "2007", "href": "spotify:album:4Px8Z5EPCjQgNw6m8kjQHx",
+        "availability": {"territories": "CA US"}}, "info": {"type": "album"}}, {"album":
+        {"name": "Vexille Soundtrack", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "609008302880"}], "released": "2007", "href": "spotify:album:1SMI67CGKru8vCOGdgWZJW",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CC CF CG
+        CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES
+        ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GS GT GU GW GY
+        HK HM HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR
+        KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO
+        MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA
+        PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG
+        SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR
+        TT TV TW TZ UA UG UM UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        "info": {"type": "album"}}, {"album": {"name": "The Disco Boys - Volume 7",
+        "artist": "Various Artists", "released": "2007", "href": "spotify:album:1g7zOpm5iGVE7iRSFEwkes",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Maximum Workout - The Workout Mix", "artist": "Various Artists",
+        "external-ids": [{"type": "upc", "id": "884385515904"}], "released": "2007",
+        "href": "spotify:album:3n9DfRAVzuqayXOpydXdDK", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"name": "Atlantic Jaxx - A Compilation
+        Vol 2", "artist": "Various Artists", "external-ids": [{"type": "upc", "id":
+        "5051083041188"}], "released": "2006", "href": "spotify:album:2lVEyepwP5bHVZDUhzXPp0",
+        "availability": {"territories": "worldwide"}}, "info": {"type": "album"}},
+        {"album": {"name": "Live Lounge", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "828768330920"}], "released": "2006", "href": "spotify:album:6KkVdTElYYkuoPjN2b3WZw",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "The Brit Awards 2002 Album Of The Year", "artist": "Various Artists",
+        "external-ids": [{"type": "upc", "id": "5099750641125"}], "released": "2002",
+        "href": "spotify:album:1if4JFSGXIUjiIhISmf1fG", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"name": "The Stanton Session",
+        "artist": "Various Artists", "external-ids": [{"type": "upc", "id": "634904014421"}],
+        "released": "2001", "href": "spotify:album:4zqhSYNBGb5DE43RNdsKQq", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"name": "Atlantic
+        Jaxx - A Compilation Vol 1", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "5051083041171"}], "released": "2001", "href": "spotify:album:7gljDo33wlUkdGGVwkKDMG",
+        "availability": {"territories": "GB"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:6qkTZAtLlJOvAD39PQUQ5o", "name": "Tomb Raider
+        - Music From The Motion Picture Tomb Raider", "artist": "Tomb Raider", "external-ids":
+        [{"type": "upc", "id": "075679982582"}], "released": "2001", "href": "spotify:album:1xQEXgAwUAQOipEQtI8aEh",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Nitsa. La Juventud Baila !!", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "887396184503"}], "released": "1998", "href": "spotify:album:71Jp6sCewDY1miio08w6AF",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD MG MH
+        MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP
+        NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RU RW SA SB
+        SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL
+        TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT
+        ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:3jCUQtWLrJNIdLLJ3uzC98",
+        "name": "Ultra Obscene", "artist": "Breakbeat Era", "external-ids": [{"type":
+        "upc", "id": "634904013028"}], "released": "1994", "href": "spotify:album:51aFwDck8urC5HfpXJ3e6J",
+        "availability": {"territories": "AD AE AF AG AL AM AN AO AR AS AT AU AW AZ
+        BA BB BD BE BF BG BH BI BJ BO BR BS BT BW BY BZ CA CC CD CF CG CH CL CM CN
+        CO CR CU CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FR GA GB GD
+        GE GF GG GH GI GL GM GN GP GQ GR GT GW GY HK HM HN HR HT HU ID IE IL IM IN
+        IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR
+        LS LT LU LV LY MA MC MD ME MG MK ML MN MO MQ MV MW MX MY MZ NA NC NE NF NG
+        NI NL NO NP NR NU NZ OM PA PE PG PH PK PL PM PR PT PY QA RE RO RS RU RW SA
+        SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TG TH TJ TK TM TR
+        TV TW TZ UA UG UY UZ VA VC VE VG VI VN VU WF WS YE ZA ZM ZW ZZ"}}, "info":
+        {"type": "album"}}], "href": "spotify:artist:4YrKBkKSVeqDamzBPWVnSJ", "name":
+        "Basement Jaxx"}}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 20:27:33 GMT
+- request:
+    method: get
+    uri: http://ws.spotify.com/lookup/1/.json?extras=&uri=spotify:track:07q6QTQXyPRCf7GbLakRPr
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 20:27:34 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 20:27:34 GMT
+      Last-Modified:
+      - Wed, 05 Dec 2012 23:38:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1151'
+      X-Varnish:
+      - '1827467015'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"track": {"available": true, "album": {"released": "1995", "href":
+        "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "name": "Greatest Hits"}, "track-number":
+        "3", "popularity": "0.76242", "external-ids": [{"type": "isrc", "id": "USRW29600011"}],
+        "length": 250.259, "href": "spotify:track:07q6QTQXyPRCf7GbLakRPr", "artists":
+        [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}],
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CR CU CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO
+        FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE
+        IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK
+        LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW
+        MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC
+        VG VN VU WF WS YE YT ZA ZM ZW ZZ"}, "name": "Everlong"}, "info": {"type":
+        "track"}}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 20:27:34 GMT
+- request:
+    method: get
+    uri: http://ws.spotify.com/lookup/1/.json?extras=albumdetail&uri=spotify:artist:7jy3rLJdDQY21OgRLCZ9sD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 20:27:35 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 20:27:35 GMT
+      Last-Modified:
+      - Thu, 06 Dec 2012 17:00:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '60428'
+      X-Varnish:
+      - '1827467026'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"info": {"type": "artist"}, "artist": {"albums": [{"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Wasting Light", "artist":
+        "Foo Fighters", "external-ids": [{"type": "upc", "id": "884977880991"}], "released":
+        "2011", "href": "spotify:album:5lnQLEUiVDkLbFJHXHQu9m", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN
+        BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ
+        DK DM DO DZ EC EG EH ER ES ET FJ FK FM FO FR GA GB GD GE GF GH GI GL GM GN
+        GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE KG
+        KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LU LY MA MC MD ME MG MH MK
+        ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU
+        NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC
+        SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO
+        TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Wasting Light (Deluxe Version)", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "886443004726"}], "released": "2011", "href": "spotify:album:14fsl2kaRIOEDrZvx8gFpn",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        MX MY NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TH TN TR TW US UY
+        VE ZA"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Nissan Live Sets At Yahoo! Music", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "888880337177"}], "released": "2007", "href": "spotify:album:2ftzbuI0dpSLJKtCziy5wz",
+        "availability": {"territories": "CN HK ID IN KR PH SG"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Echoes, Silence, Patience & Grace", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "886971550023"}], "released": "2007", "href": "spotify:album:3ph1ceuYuayuzoIJzPQji2",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AZ BA BB
+        BD BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CD CF CG CI CK CL CM CO CR CU
+        CV CZ DJ DM DO EC EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL GM GN GP
+        GQ GT GU GW GY HN HR HT HU IE IL IO IQ IR IS JM JO KE KG KH KI KM KN KP KW
+        KY KZ LA LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MU MV
+        MW MX MZ NC NE NG NI NP NR NU OM PA PE PF PG PK PL PM PN PR PS PW PY QA RE
+        RS RU RW SA SB SC SD SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TJ TK
+        TL TM TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Echoes, Silence, Patience & Grace", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "888880291219"}], "released": "2007", "href": "spotify:album:3MWuIXaEWetxWf0i7W9Mcf",
+        "availability": {"territories": "DZ FR LB MA TN"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Echoes,
+        Silence, Patience & Grace", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "888880291820"}], "released": "2007", "href": "spotify:album:7rT92Tkc3qgkVBIR4jHGI4",
+        "availability": {"territories": "CN HK ID IN KR PH SG"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Echoes, Silence, Patience & Grace", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "888880281975"}], "released": "2007", "href": "spotify:album:2ovXUTjkBkNlgAU7DTIxX9",
+        "availability": {"territories": "AR AT AU BE BO BR BW CH CL CO CR CY CZ DE
+        DK DZ EC EE ES FI FR GR GT HN HU IE IT KZ LB LT LU LV MA MT MX NA NG NI NL
+        NO NZ PA PE PL PT PY RO RU SE SK SV TN TR UY VE ZA"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Echoes,
+        Silence, Patience & Grace", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "886971151626"}], "released": "2007", "href": "spotify:album:3ilXDEG0xiajK8AbqboeJz",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AZ BA BB
+        BD BF BG BH BI BJ BM BN BO BR BS BT BY BZ CD CF CG CI CK CL CM CN CO CR CU
+        CV CZ DJ DM DO EC EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL GM GN GP
+        GQ GT GU GW GY HK HN HR HT ID IE IL IN IO IQ IR IS JM JO KE KG KH KI KM KN
+        KP KR KW KY KZ LA LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO MP MQ MR
+        MS MU MV MW MX MY MZ NC NE NI NP NR NU OM PA PE PF PG PH PK PM PN PR PS PW
+        PY QA RE RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD
+        TF TG TH TJ TK TL TM TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF
+        WS YE YT ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Echoes, Silence, Patience
+        & Grace", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id":
+        "888880304407"}], "released": "2007", "href": "spotify:album:1lJ6zh0IOKdLLGjcfX6dBM",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CR CU CV CY CZ DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA
+        GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN
+        IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS
+        LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY
+        MZ NA NC NE NG NI NL NO NP NR NU OM PA PF PG PH PK PL PM PN PR PS PT PW PY
+        QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC
+        TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VG VN VU WF
+        WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Skin And Bones", "artist":
+        "Foo Fighters", "external-ids": [{"type": "upc", "id": "888880050328"}], "released":
+        "2006", "href": "spotify:album:0nn3RvXC6hjzvSwoBMixg7", "availability": {"territories":
+        "AR AU BE BO BR BW CA CH CL CN CO CR CY CZ DE DK DZ EC EE ES FI FR GR GT HK
+        HN HU ID IE IN IT KR KZ LB LT LU LV MA MT MX NA NG NI NL NO PA PE PH PL PT
+        PY RO RU SE SG SK SV TN TR UY VE ZA"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Skin And Bones",
+        "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id": "828768885727"}],
+        "released": "2006", "href": "spotify:album:4IBQvwIbtDluogvDe2qpaB", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BF BG
+        BH BI BJ BM BN BO BR BS BT BY BZ CA CD CF CG CH CI CK CL CM CO CR CU CV DE
+        DJ DM DO EC EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL GM GN GP GQ GT
+        GU GW GY HN HR HT IE IL IO IQ IR IS JM JO KE KG KH KI KM KN KP KW KY KZ LA
+        LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MU MV MW MX MY
+        MZ NA NC NE NI NP NR NU NZ OM PA PE PF PG PK PM PN PR PS PW PY QA RE RS RU
+        RW SA SB SC SD SH SI SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM
+        TO TT TV TW TZ UA UG US UY UZ VA VC VE VG VN VU WF WS YE YT ZM ZW ZZ"}}, "info":
+        {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "In Your Honor", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "DE000512227I"}], "released": "2005", "href": "spotify:album:0ngwUvQYUdtMg52BKtM8Jn",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "In Your Honor",
+        "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id": "828767967257"}],
+        "released": "2005", "href": "spotify:album:2eprpJCYbCbPZRKVGIEJxZ", "availability":
+        {"territories": "AR AT BO BR CA CH CL CR DE GT HN MX NI PA PY SV US UY"}},
+        "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "In Your Honor", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "828766803822"}], "released": "2005", "href": "spotify:album:0Z8kb2SAID4LFJ5riM7y1m",
+        "availability": {"territories": "AR BO BR CA CL CO CR EC GT HN MX NI PA PE
+        PY SV UY VE"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "In Your Honor", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "828766962321"}], "released": "2005", "href": "spotify:album:4eV58R9UsAIn72eAEiBUOU",
+        "availability": {"territories": "AR AU BO BR CA CL CN CR GT HK HN ID IN KR
+        KZ MX MY NI NZ PA PH PY RU SG SV TH TR TW UY"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "In
+        Your Honour", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id":
+        "828767019321"}], "released": "2003", "href": "spotify:album:02jqf49ws9bcTvXLPGtjbT",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TJ TK TL TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "One By One", "artist": "Foo
+        Fighters", "external-ids": [{"type": "upc", "id": "828765555524"}], "released":
+        "2003", "href": "spotify:album:1zQ6F8gMagKcPL4SoA80cx", "availability": {"territories":
+        "AT DE KZ RU TR"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "ONE BY ONE", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "828765331128"}], "released": "2003", "href": "spotify:album:6mulYcpWRDAiv7KIouWvyP",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU
+        ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC
+        LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU
+        MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM
+        PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO
+        SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ
+        VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "One
+        By One", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id":
+        "888880777294"}], "released": "2002", "href": "spotify:album:4YbwORuG3GOCz2t1pFmjNf",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "One By One",
+        "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id": "888880779014"}],
+        "released": "2002", "href": "spotify:album:5BCowF4xuJnj0mJV1yov9i", "availability":
+        {"territories": "AT CH DE"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "One By One", "artist": "Foo
+        Fighters", "external-ids": [{"type": "upc", "id": "743219734822"}], "released":
+        "2002", "href": "spotify:album:67oneXalIvq9HIeXsdJPJ5", "availability": {"territories":
+        "AR AU BO BR CA CL CN CR GT HK HN ID IN KR KZ MY NI NZ PA PH PY RU SG SV TH
+        TR TW UY"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "One By One", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "828765052320"}], "released": "2002", "href": "spotify:album:2TIp2qGorHvqyaiAb82Awe",
+        "availability": {"territories": "AR BO BR CA CL CN CO CR EC GT HK HN ID IN
+        KR KZ MX MY NI PA PE PH PY RU SG SV TH TR TW US UY VE"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "There Is Nothing Left To Lose", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "078636791227"}], "released": "2010", "href": "spotify:album:5w3S7505LlCRu6kn7xykKA",
+        "availability": {"territories": "AR AT BE BO BR BW CA CH CL CN CO CR CY CZ
+        DE DK DZ EC EE ES FI FR GR GT HK HN HU ID IE IN IT KR KZ LB LT LU LV MA MT
+        NA NG NI NL NO PA PE PH PL PT PY RO RU SE SG SK SV TN TR TW UY VE ZA"}}, "info":
+        {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "There Is Nothing Left To Lose", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "743217169923"}], "released": "1999", "href": "spotify:album:6mowBvm0JLUKqh7rLe6LhI",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CD CF CG CH CI CK CL
+        CM CR CU CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA
+        GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HN HR HT HU IE IL IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KW KY LA LB LC LI LK LR LS LT LU LV LY MA
+        MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG
+        NI NL NO NP NR NU NZ OM PA PF PG PK PL PM PN PR PS PT PW PY QA RE RO RS RW
+        SA SB SC SD SE SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL
+        TM TN TO TT TV TW TZ UA UG UY UZ VA VC VG VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "There Is Nothing Left To Lose", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "888880335630"}], "released": "1999", "href": "spotify:album:28q2N44ocJECgf8sbHEDfY",
+        "availability": {"territories": "AR AT AU BO BR CA CH CL CR DE GT HN NI NZ
+        PA PY SV US UY"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "The Colour And The Shape", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "884977570328"}], "released": "2010", "href": "spotify:album:30ly6F6Xl0TKmyBCU50Khv",
+        "availability": {"territories": "US"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "The Colour
+        And The Shape", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "888880782595"}], "released": "1997", "href": "spotify:album:3eIaHvHkm4iX1AmTEep95p",
+        "availability": {"territories": "DE"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "The Colour
+        And The Shape", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "828765549523"}], "released": "1997", "href": "spotify:album:6t0KW8iHL9e8Q60nW5KYsR",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU
+        ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC
+        LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU
+        MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM
+        PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO
+        SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ
+        VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "The
+        Colour And The Shape (Special Edition)", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "888880267702"}], "released": "2007", "href": "spotify:album:3a89biGHqKsLpC15niZeMP",
+        "availability": {"territories": "AT CH"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "The Colour
+        And The Shape (Special Edition)", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "888880242679"}], "released": "1997", "href": "spotify:album:0I0k6X5uvvujSnJZkmyjdY",
+        "availability": {"territories": "AR BO BR BW CL CN CO CR CZ DZ EC FR GT HK
+        HN HU ID IN KR KZ LB MA MX NG NI PA PE PH PL PY RU SG SK SV TN TR UY VE ZA"}},
+        "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "The Colour And The Shape (Special Edition)", "artist": "Foo Fighters",
+        "external-ids": [{"type": "upc", "id": "886970918329"}], "released": "1997",
+        "href": "spotify:album:3woBtPnPoZx6mtJWau0PDf", "availability": {"territories":
+        "AR AU BO CL CN HK ID IN KR KZ MY PH PL PY RU SG TH TW US UY"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "DE000416877G"}], "released": "2003", "href": "spotify:album:3Xr3M24El1tcnxa0LQRr2o",
+        "availability": {"territories": "AT CH DE"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo
+        Fighters", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id":
+        "828765549622"}], "released": "1995", "href": "spotify:album:4EnNuo8fG7dMoxMefbApRY",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU
+        ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR
+        PS PT PW PY QA RE RO RS RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW TZ UA UG US UY UZ VA VC VE
+        VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Greatest Hits",
+        "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id": "884977373295"}],
+        "released": "1995", "href": "spotify:album:1zCNrbPpz5OLSr6mSpPdKm", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY CZ DE DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE
+        GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR
+        IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV
+        LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC
+        NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF
+        TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Arlandria", "artist": "Foo
+        Fighters", "external-ids": [{"type": "upc", "id": "886443214309"}], "released":
+        "2011", "href": "spotify:album:51sgFSBkPTiqAmtYqRA5eN", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AZ BA BB BD BF BG BH BI BJ BM BN BS BT BY BZ
+        CD CF CG CI CK CM CU CV DJ DM DO EG EH ER ET FJ FK FM FO GA GB GD GE GF GH
+        GI GL GM GN GP GQ GU GW GY HR HT IE IL IO IQ IR IS JM JO KE KG KH KI KM KN
+        KP KW KY LA LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MU
+        MV MW MZ NC NE NP NR NU OM PF PG PK PM PN PR PS PW QA RE RS RW SA SB SC SD
+        SH SI SL SM SN SO SR ST SY SZ TC TD TF TG TJ TK TL TM TO TT TV TZ UA UG UZ
+        VA VC VG VN VU WF WS YE YT ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Walk", "artist":
+        "Foo Fighters", "external-ids": [{"type": "upc", "id": "886443056985"}], "released":
+        "2011", "href": "spotify:album:2KMsM9cX7jG9ziquQYaUG6", "availability": {"territories":
+        "AT CA CH DE"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Rope", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "884977974638"}], "released": "2011", "href": "spotify:album:3hGh9ojzRw4qrEi5g4oYXt",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AZ BA BB BD
+        BF BG BH BI BJ BM BN BS BT BY BZ CD CF CG CI CK CM CU CV DJ DM DO EG EH ER
+        ET FJ FK FM FO GA GB GD GE GF GH GI GL GM GN GP GQ GU GW GY HR HT IE IL IO
+        IQ IR IS JM JO KE KG KH KI KM KN KP KW KY LA LC LI LK LR LS LY MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MU MV MW MZ NC NE NP NR NU OM PF PG PK PM PN
+        PR PS PW QA RE RS RW SA SB SC SD SH SI SL SM SN SO SR ST SY SZ TC TD TF TG
+        TJ TK TL TM TO TT TV TZ UA UG UZ VA VC VG VN VU WF WS YE YT ZM ZW ZZ"}}, "info":
+        {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Rope", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "884977934427"}], "released": "2011", "href": "spotify:album:3znMqtWNAwxgkZQuSraan9",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AZ BA BB
+        BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CD CF CG CI CK CL CM CN CO
+        CR CU CV CY CZ DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO
+        IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT
+        LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MY MZ NC
+        NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE
+        RO RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG
+        TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Rope", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "884977934397"}], "released": "2011", "href": "spotify:album:5Bw9pnl566CYFefNYQylvx",
+        "availability": {"territories": "AT AU CA CH DE MX NZ US"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Wheels", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "884977368949"}], "released": "2009", "href": "spotify:album:6Dgtc6gv91FLT2zRZU2mis",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU
+        ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC
+        LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU
+        MV MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM
+        PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR
+        ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA
+        VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Let It Die
+        EP", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id": "888880612014"}],
+        "released": "2008", "href": "spotify:album:503fg7UzyJBClnKc8dEvQZ", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AZ BA BB BD BE BF BG BH
+        BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV
+        CY CZ DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF
+        GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS
+        IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY
+        MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE
+        NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO
+        RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG
+        TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE
+        YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Band On The Run", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "888880527745"}], "released": "2008", "href": "spotify:album:1Lh3h985pavRYVMKrR77Uv",
+        "availability": {"territories": "AT CH"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Cheer Up,
+        Boys (Your Make Up Is Running)", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "888880468963"}], "released": "2008", "href": "spotify:album:7yhmuLXrsrcKvgzbZRjASF",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CD CF CG CH CI CK CL CM
+        CN CO CR CU CV CY CZ DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR
+        GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL
+        IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR
+        LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX
+        MY MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS PT
+        PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY
+        SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG
+        VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Cheer Up, Boys (Your Make
+        Up Is Running)", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "886972834726"}], "released": "2008", "href": "spotify:album:1haFpW1ICw8NMK4chHmliC",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MY MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR
+        PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST
+        SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC
+        VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Walmart Soundcheck",
+        "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id": "888880322180"}],
+        "released": "2007", "href": "spotify:album:3GjeVPpCk9LbWZZBBkAh7P", "availability":
+        {"territories": "CN HK ID IN KR PH SG"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Let It Die",
+        "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id": "886973048221"}],
+        "released": "2008", "href": "spotify:album:2Swi1Sr05jkTVkNqKn9EW8", "availability":
+        {"territories": "CN CZ HK ID IN KR KZ PH RU SG SK"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Let
+        It Die", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id":
+        "888880562869"}], "released": "2008", "href": "spotify:album:7tm1nlAH4wpYxAfaCYf7Ki",
+        "availability": {"territories": "CN HK ID IN KR PH SG"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Let It Die", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "888880497581"}], "released": "2008", "href": "spotify:album:7IT1INl5pjU7juDod1GXSw",
+        "availability": {"territories": "CN HK ID IN JP KR PH SG"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Let It Die", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "888880338587"}], "released": "2007", "href": "spotify:album:59xhQBQFArlKfVgAf1eoYK",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MY MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR
+        PS PT PW PY QA RE RO RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE
+        VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Long Road
+        To Ruin", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id":
+        "886971903720"}], "released": "2010", "href": "spotify:album:4iRYuAu5JVjMQZRv5j1Oov",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CD CF CG CH CI CK CL CM
+        CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO
+        FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE
+        IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK
+        LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW
+        MX MY MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE
+        VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Long Road
+        To Ruin", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id":
+        "886971903621"}], "released": "2007", "href": "spotify:album:6ca1bw3PkdGZ0vNh9ViBJH",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AT AZ BA BB
+        BD BF BG BH BI BJ BM BN BS BT BY BZ CD CF CG CI CK CM CN CU CV DE DJ DM DO
+        EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL GM GN GP GQ GU GW GY HK HR
+        HT ID IE IL IN IO IQ IR IS JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LC LI
+        LK LR LS LY MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MU MV MW MZ NC NE NP
+        NR NU OM PF PG PH PK PM PN PR PS PW QA RE RS RU RW SA SB SC SD SG SH SI SL
+        SM SN SO SR ST SY SZ TC TD TF TG TJ TK TL TM TO TT TV TZ UA UG UZ VA VC VG
+        VN VU WF WS YE YT ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Long Road To Ruin", "artist":
+        "Foo Fighters", "external-ids": [{"type": "upc", "id": "888880326102"}], "released":
+        "2007", "href": "spotify:album:4w2V9HE4wjAnBjmUvPklcD", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN
+        BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ
+        DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL
+        GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO
+        KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD
+        ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NG NI NL
+        NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU
+        RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ
+        TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA
+        ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Long Road To Ruin", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "888880326096"}], "released": "2007", "href": "spotify:album:4wi34s8xyuucDGPhhxx1q0",
+        "availability": {"territories": "AT BE BW DK LU NA NG NL ZA"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Long Road To Ruin", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "886971903522"}], "released": "2007", "href": "spotify:album:58b27YVnjUn6iZRBhQydIO",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MY MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR
+        PS PT PW PY QA RE RO RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VE
+        VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Long Road
+        To Ruin", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id":
+        "888880338594"}], "released": "2007", "href": "spotify:album:52ti7tls53n0pPqwAlxrPC",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CR CU CV CY CZ DJ DK DM DO DZ EE EG EH ER ES ET FI FJ FK FM FO FR
+        GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL
+        IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR
+        LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX
+        MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PT
+        PW PY QA RE RO RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC VG VN VU
+        WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "The Pretender", "artist":
+        "Foo Fighters", "external-ids": [{"type": "upc", "id": "888880291721"}], "released":
+        "2010", "href": "spotify:album:39VmBDpaeYyEB6S3KXVWrE", "availability": {"territories":
+        "AR BO BR BW CA CL CN CR CY CZ DE ES GR GT HK HN HU ID IN IT KR KZ MT MX NA
+        NG NI NO PA PH PL PT PY RO RU SG SK SV TR UY ZA"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "The
+        Pretender", "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id":
+        "888880287014"}], "released": "2007", "href": "spotify:album:1AwOCBDsILQwzsIH2LA9pQ",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CY CZ DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MY MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN
+        PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST
+        SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UY UZ VA VC
+        VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "The Pretender",
+        "artist": "Foo Fighters", "external-ids": [{"type": "upc", "id": "888880278876"}],
+        "released": "2007", "href": "spotify:album:23IzefkhxAZbUGmRW88BTa", "availability":
+        {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF
+        BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CR CU
+        CV CY DE DJ DK DM DO DZ EE EG EH ER ET FI FJ FK FM FO FR GA GB GD GE GF GH
+        GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT ID IE IL IN IO IQ IR IS JM JO
+        KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME
+        MG MH MK ML MM MN MO MP MQ MR MS MU MV MW MX MY MZ NA NC NE NG NI NL NO NP
+        NR NU NZ OM PA PF PG PH PK PL PM PN PR PS PW PY QA RE RS RW SA SB SC SD SG
+        SH SI SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TT TV TW
+        TZ UA UG US UY UZ VA VC VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "The Pretender", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "886971399929"}], "released": "2007", "href": "spotify:album:148tXclbqz9XpvNc1jF2rE",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AZ BA BB
+        BD BF BG BH BI BJ BM BN BO BR BS BT BY BZ CD CF CG CI CK CL CM CO CR CU CV
+        DJ DM DO EC EG EH ER ET FJ FK FM FO GA GB GD GE GF GH GI GL GM GN GP GQ GT
+        GU GW GY HN HR HT IE IL IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KW KY KZ
+        LA LC LI LK LR LS LY MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW
+        MX MZ NC NE NI NP NR NU OM PA PE PF PG PK PM PN PR PS PW PY QA RE RO RS RU
+        RW SA SB SC SD SH SI SL SM SN SO SR ST SV SY SZ TC TD TF TG TJ TK TL TM TO
+        TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Skin And Bones Int''l Radio Sampler", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "886970351126"}], "released": "2006", "href": "spotify:album:7gaJ4FP0HJcj5CQafoBAYD",
+        "availability": {"territories": "CN HK ID IN KR PH SG"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "My Hero", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "888880054142"}], "released": "2006", "href": "spotify:album:1caFATa4QpzitzkK1aTIoI",
+        "availability": {"territories": "AT CH CN HK ID IN KR PH SG"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "My Hero", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "888880028075"}], "released": "2006", "href": "spotify:album:0Lsf5STm4CkMj9USrOHuAG",
+        "availability": {"territories": "AT AU CA CH CN ES HK ID IN KR PH SG"}}, "info":
+        {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "No Way Back", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "828768047422"}], "released": "2006", "href": "spotify:album:3JrXsM61V4UwATKyzWFpOw",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK
+        LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW
+        MX MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ
+        TC TD TF TG TJ TK TL TM TN TO TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF WS
+        YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "No Way Back", "artist":
+        "Foo Fighters", "external-ids": [{"type": "upc", "id": "828768047323"}], "released":
+        "2006", "href": "spotify:album:5544o7wpDPR98N6RbajQXS", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN
+        BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ
+        DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL
+        GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO
+        KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD
+        ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO
+        NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW
+        SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TJ TK TL
+        TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}},
+        "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "No Way Back", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "828768038826"}], "released": "2005", "href": "spotify:album:5u0HMKICsx7qzcl2ctfcFs",
+        "availability": {"territories": "CY EE FI GR IT LT LV MT RO"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Resolve", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "828767389127"}], "released": "2005", "href": "spotify:album:6b1yoevfEHbRK1I4KVauiD",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TJ TK TL TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Resolve", "artist": "Foo
+        Fighters", "external-ids": [{"type": "upc", "id": "828767388922"}], "released":
+        "2005", "href": "spotify:album:5Dvw4BNzreh3unQHVM5j4c", "availability": {"territories":
+        "CN EE FI HK ID IN IT KR LT LV MT PH RO SG"}}, "info": {"type": "album"}},
+        {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "I''m
+        In Love With A German Film Star", "artist": "Foo Fighters", "external-ids":
+        [{"type": "upc", "id": "828767098050"}], "released": "2005", "href": "spotify:album:3HstmtVIkfWWHCqMuVHpNK",
+        "availability": {"territories": "AT CH CN DE HK ID IN KR PH SG"}}, "info":
+        {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Razor", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "828767205656"}], "released": "2005", "href": "spotify:album:2LxM25pCWYgto509zZhQ1B",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA
+        BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL
+        CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM
+        FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID
+        IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MZ NA NC NE NG NI NL NO NP NR NU OM PA PE PF PG PH PK PL PM PN PR PS
+        PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SK SL SM SN SO SR ST SV
+        SY SZ TC TD TF TG TJ TK TL TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG VN
+        VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "The Sign", "artist": "Foo
+        Fighters", "external-ids": [{"type": "upc", "id": "828767058450"}], "released":
+        "2005", "href": "spotify:album:13bXpWKLS0ON7GolE1HuP8", "availability": {"territories":
+        "AT CH CN HK ID IN KR PH SG"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Best Of You", "artist":
+        "Foo Fighters", "external-ids": [{"type": "upc", "id": "828766961454"}], "released":
+        "2005", "href": "spotify:album:2aHWKbwLthpxVrxp72BBxw", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN
+        BO BR BS BT BW BY BZ CA CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ
+        DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL
+        GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO
+        KE KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME
+        MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP
+        NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RW SA SB
+        SC SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TJ TK TL TM TN TO
+        TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info":
+        {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Best Of You", "artist": "Foo Fighters", "external-ids": [{"type":
+        "upc", "id": "828767012124"}], "released": "2005", "href": "spotify:album:6nf2P1xl5Z4qHdTAsdvo6B",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU
+        ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY KZ LA LB LC
+        LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU
+        MV MW MX MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN
+        PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST
+        SV SY SZ TC TD TF TG TJ TK TL TM TN TO TR TT TV TZ UA UG UY UZ VA VC VE VG
+        VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "DOA", "artist": "Foo Fighters",
+        "external-ids": [{"type": "upc", "id": "828767203126"}], "released": "2005",
+        "href": "spotify:album:1UdNxL9n7V09ZTgg02fjok", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ BA BB BD BE BF BG BH BI BJ BM BN
+        BO BR BS BT BW BY BZ CD CF CG CH CI CK CL CM CN CO CR CU CV CY CZ DE DJ DK
+        DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GH GI GL GM
+        GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO KE
+        KG KH KI KM KN KP KR KW KY LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG
+        MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MZ NA NC NE NG NI NL NO NP NR
+        NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RW SA SB SC
+        SD SG SH SI SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TJ TK TL TM TN TO TT
+        TV TZ UA UG UY UZ VA VC VE VG VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"artist-id": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "DOA", "artist": "Foo Fighters", "external-ids": [{"type": "upc",
+        "id": "828767349558"}], "released": "2005", "href": "spotify:album:7hQgEiDmH2FFobretjNBzl",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AT AU AZ
+        BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BW BY BZ CA CD CF CG CH CI CK
+        CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK
+        FM FO FR GA GB GD GE GF GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU
+        ID IE IL IN IO IQ IR IS IT JM JO KE KG KH KI KM KN KP KR KW KY LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MZ NA NC NE NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR
+        PS PT PW PY QA RE RO RS RW SA SB SC SD SG SH SI SK SL SM SN SO SR ST SV SY
+        SZ TC TD TF TG TJ TK TL TM TN TO TT TV TZ UA UG UY UZ VA VC VE VG VN VU WF
+        WS YE YT ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "DOA", "artist": "Foo Fighters",
+        "external-ids": [{"type": "upc", "id": "828767375052"}], "released": "2003",
+        "href": "spotify:album:1QM1KIn9TCGFD8NtGESNkp", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AT AZ BA BB BD BF BG BH BI BJ BM BN BO BR
+        BS BT BY BZ CA CD CF CG CH CI CK CL CM CN CR CU CV DE DJ DM DO EG EH ER ET
+        FJ FK FM FO GA GB GD GE GF GH GI GL GM GN GP GQ GT GU GW GY HK HN HR HT ID
+        IE IL IN IO IQ IR IS JM JO KE KG KH KI KM KN KP KR KW KY LA LC LI LK LR LS
+        LY MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MU MV MW MX MZ NC NE NI NP NR
+        NU OM PA PF PG PH PK PM PN PR PS PW PY QA RE RS RW SA SB SC SD SG SH SI SL
+        SM SN SO SR ST SV SY SZ TC TD TF TG TJ TK TL TM TO TT TV TZ UA UG US UY UZ
+        VA VC VG VN VU WF WS YE YT ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:02yUz7O31SimtLOxMFj0GC", "name": "Con Mora Nuestros
+        Cl\u00e1sicos Radio Show", "artist": "Con Mora Radio Show", "released": "2012",
+        "href": "spotify:album:2j0iKBtIXJCJYoXQEmDMWp", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI
+        BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU
+        CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE
+        IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB
+        LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT
+        MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK
+        PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL
+        SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA
+        UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"name": "The BRIT Awards 2012", "artist": "Various Artists",
+        "external-ids": [{"type": "upc", "id": "00600753377666"}], "released": "2012",
+        "href": "spotify:album:1GvWtv7m3NX1vZ1Lk4i13M", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"name": "2012 GRAMMY Nominees",
+        "artist": "Various Artists", "external-ids": [{"type": "upc", "id": "00602527929071"}],
+        "released": "2012", "href": "spotify:album:4OOlCVBI68ygkTQA5bbeCY", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"name": "2012
+        GRAMMY Nominees", "artist": "Various Artists", "external-ids": [{"type": "upc",
+        "id": "00602527908755"}], "released": "2012", "href": "spotify:album:2PXW61VkTKX6NCP9tPmhfM",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "2012 GRAMMY Nominees", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "00602527908755"}], "released": "2012", "href": "spotify:album:4ZNUicJiAIVE4B1MasPoCL",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "R\u00e9servoir Rock", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "886443261372"}], "released": "2011", "href": "spotify:album:4TBDy4zc6Lypp0Cled4ezH",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Real Steel - Music From The Motion Picture", "artist": "Various
+        Artists", "external-ids": [{"type": "upc", "id": "00602527841830"}], "released":
+        "2011", "href": "spotify:album:10PMU9RxLu3gIpJcQGJL7s", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"name": "Real Steel - Music From
+        The Motion Picture", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "00602527841830"}], "released": "2011", "href": "spotify:album:1a8LUK9Z3x2AjH3zYWZVXs",
+        "availability": {"territories": "CA US"}}, "info": {"type": "album"}}, {"album":
+        {"name": "The Rock Album", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "886443146648"}], "released": "2011", "href": "spotify:album:5YORCgPtdCHQQCGwbTFKCb",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Sunfly Hits: Vol. 262", "artist": "Various Artists", "released":
+        "2011", "href": "spotify:album:37MzAEZNEeIfPrQQPnlBAs", "availability": {"territories":
+        "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI
+        BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU
+        CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB
+        GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE
+        IL IN IO IQ IR IS IT JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI
+        LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV
+        MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM
+        PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN
+        SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM
+        US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW ZZ"}}, "info": {"type":
+        "album"}}, {"album": {"name": "The Best Of BBC Radio 1''s Live Lounge", "artist":
+        "Various Artists", "external-ids": [{"type": "upc", "id": "886443016422"}],
+        "released": "2011", "href": "spotify:album:0S8asjWOGWi3xVMjaMUfVd", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:2Kx7MNY7cI1ENniW7vT30N", "name": "...Featuring", "artist":
+        "Norah Jones", "external-ids": [{"type": "upc", "id": "5099991967251"}], "released":
+        "2010", "href": "spotify:album:022I8JNsbclNqE0hJDxhYz", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:2Kx7MNY7cI1ENniW7vT30N",
+        "name": "...Featuring", "artist": "Norah Jones", "external-ids": [{"type":
+        "upc", "id": "5099991960658"}], "released": "2010", "href": "spotify:album:6GOXxeY9KPS6lyCN5zLdvp",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:2Kx7MNY7cI1ENniW7vT30N", "name": "...Featuring",
+        "artist": "Norah Jones", "external-ids": [{"type": "upc", "id": "5099991960153"}],
+        "released": "2010", "href": "spotify:album:4aJLX4AStdL7sI3atl4iL9", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:2Kx7MNY7cI1ENniW7vT30N", "name": "...Featuring", "artist":
+        "Norah Jones", "external-ids": [{"type": "upc", "id": "5099991996954"}], "released":
+        "2010", "href": "spotify:album:7plvrk2goKaQEYwAVFhRfy", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"name": "Match Of The Day", "artist":
+        "Various Artists", "external-ids": [{"type": "upc", "id": "884977224306"}],
+        "released": "2009", "href": "spotify:album:4gxOQDmXxCgKNGrTtOyXDU", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"name": "Brit
+        Awards 2009", "artist": "Various Artists", "external-ids": [{"type": "upc",
+        "id": "884977021035"}], "released": "2009", "href": "spotify:album:10E7Ep9q61GQ3kEJTDK40l",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Live Lounge 3", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "888880738745"}], "released": "2008", "href": "spotify:album:0crgNqQaJ93G75h3pGpvPA",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Grammy Nominees 2008", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "00602517581029"}], "released": "2008", "href": "spotify:album:6exH7OzdcKpeIRTchHQRrP",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Live Lounge 2", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "888880348753"}], "released": "2007", "href": "spotify:album:4ApGuT49IRO2iZQcOHEHNm",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Live Lounge 2", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "886971644623"}], "released": "2007", "href": "spotify:album:3jlsQTIdP7q2jqddbmN3i2",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "CBGB Forever", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "856385001718"}], "released": "2011", "href": "spotify:album:3UfLTzsTrBPVT2zpE0znFz",
+        "availability": {"territories": "AD AE AF AG AI AL AM AN AO AQ AR AS AT AU
+        AW AX AZ BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BV BW BY BZ CA CC CD
+        CF CG CH CI CK CL CM CN CO CR CU CV CX CY CZ DE DJ DK DM DO DZ EC EE EG EH
+        ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT
+        GU GW GY HK HM HN HR HT HU ID IE IL IN IO IQ IR IS IT JM JO JP KE KG KH KI
+        KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK
+        ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR
+        NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB
+        SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SV SY SZ TC TD TF TG TH TJ TK TL
+        TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT
+        ZA ZM ZW ZZ"}}, "info": {"type": "album"}}, {"album": {"name": "CBGB Forever",
+        "artist": "Various Artists", "external-ids": [{"type": "upc", "id": "856385001718"}],
+        "released": "2007", "href": "spotify:album:5IG74k9KG0BUWqpSiQLqjH", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:7yajVSsooYznTyJWTCm9xY", "name": "Live Earth - The Concerts
+        for a Climate in Crisis", "artist": "Live Earth - The Concerts for a Climate
+        in Crisis", "external-ids": [{"type": "upc", "id": "093624992790"}], "released":
+        "2007", "href": "spotify:album:3IDRCpwQEQLPeZdzwMHXee", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:7yajVSsooYznTyJWTCm9xY",
+        "name": "Live Earth - The Concerts for a Climate in Crisis", "artist": "Live
+        Earth - The Concerts for a Climate in Crisis", "external-ids": [{"type": "upc",
+        "id": "093624992707"}], "released": "2007", "href": "spotify:album:7hkjkYTtslRNA7lziQqT0T",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Le Talent S''ecoute - Vol 3", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "828768052624"}], "released": "2006", "href": "spotify:album:6vyXXlByssjJiiRMaYOE1p",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "2006 Grammy Nominees", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "828767427720"}], "released": "2006", "href": "spotify:album:4sITEHEDAICPpu4xK0fUjG",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "Live Lounge", "artist": "Various Artists", "external-ids": [{"type":
+        "upc", "id": "828768330920"}], "released": "2006", "href": "spotify:album:6KkVdTElYYkuoPjN2b3WZw",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "PC Disc Aprile 2006", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "828768324622"}], "released": "2006", "href": "spotify:album:4Il3Qsn8TrBydPiS4Inim5",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"name": "PC Disc Novembre 2005", "artist": "Various Artists", "external-ids":
+        [{"type": "upc", "id": "828767586625"}], "released": "2005", "href": "spotify:album:43aBBLu6p0T5CrOlWFsT32",
+        "availability": {"territories": "CN HK ID IN KR PH SG"}}, "info": {"type":
+        "album"}}, {"album": {"name": "American Wedding", "artist": "Various Artists",
+        "external-ids": [{"type": "upc", "id": "00602498076798"}], "released": "2003",
+        "href": "spotify:album:5uNJo0Y1np9glLI428bTIy", "availability": {"territories":
+        "US"}}, "info": {"type": "album"}}, {"album": {"artist-id": "spotify:artist:3huVQoEWdqUTvlYpFVUHcF",
+        "name": "Out Cold", "artist": "Original Soundtrack", "external-ids": [{"type":
+        "upc", "id": "078636802725"}], "released": "2001", "href": "spotify:album:5gJQ0ZT24mTHBf2JZQBdq9",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}, {"album":
+        {"artist-id": "spotify:artist:4Trrdwhz5CHiV5mLKEWZDk", "name": "Me, Myself
+        & Irene [Music From The Motion Picture]", "artist": "Me, Myself & Irene (OST)",
+        "external-ids": [{"type": "upc", "id": "075679982551"}], "released": "2000",
+        "href": "spotify:album:6Q1Gpz3He5xIExFab7oRBg", "availability": {"territories":
+        ""}}, "info": {"type": "album"}}, {"album": {"name": "Godzilla - The Album",
+        "artist": "Various Artists", "external-ids": [{"type": "upc", "id": "074646933824"}],
+        "released": "1998", "href": "spotify:album:0ZnQTxbohlPzuTMTB3HleE", "availability":
+        {"territories": ""}}, "info": {"type": "album"}}, {"album": {"artist-id":
+        "spotify:artist:4o6DE8hZbgTTInaDQDEQVa", "name": "Catch And Release", "artist":
+        "Original Motion Picture Soundtrack", "external-ids": [{"type": "upc", "id":
+        "886970585224"}], "released": "1980", "href": "spotify:album:0Kq2k87kM7vYhwlGKQCktV",
+        "availability": {"territories": ""}}, "info": {"type": "album"}}], "href":
+        "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD", "name": "Foo Fighters"}}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 20:27:37 GMT
+recorded_with: VCR 2.3.0

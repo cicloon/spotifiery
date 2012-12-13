@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ws.spotify.com/search/1/artist.json?page=1&q=Foo%20Fighters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Dec 2012 19:31:10 GMT
+      Server:
+      - lighttpd smisk/1.1.6
+      Vary:
+      - Accept-Charset
+      Expires:
+      - Fri, 07 Dec 2012 19:31:10 GMT
+      Last-Modified:
+      - Wed, 05 Dec 2012 23:38:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '332'
+      X-Varnish:
+      - '1827307223'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Access-Control-Allow-Origin:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"info": {"num_results": 2, "limit": 100, "offset": 0, "query": "Foo
+        Fighters", "type": "artist", "page": 1}, "artists": [{"href": "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD",
+        "name": "Foo Fighters", "popularity": "0.52878"}, {"href": "spotify:artist:7BwOCTBw5XiJ7ZG2xIL8u8",
+        "name": "Karaoke - Foo Fighters", "popularity": "0.00036"}]}'
+    http_version: 
+  recorded_at: Thu, 06 Dec 2012 19:31:10 GMT
+recorded_with: VCR 2.3.0
