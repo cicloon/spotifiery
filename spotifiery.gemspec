@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["aleon.prof@gmail.com"]
   gem.description   = %q{Spotify Web API wrapper}
   gem.summary       = %q{This gem provides an API wrapper for the spotify Web search API}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/cicloon/spotifiery"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
