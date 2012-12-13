@@ -1,10 +1,7 @@
 # encoding: utf-8
 
-require 'httparty'
-require 'active_support'
 require 'webmock/rspec'
 require 'vcr'
-require 'json'
 
 require_relative '../lib/spotifiery'
 

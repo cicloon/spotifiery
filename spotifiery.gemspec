@@ -15,9 +15,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Spotifiery::VERSION
 
-
-  gem.add_dependency "httparty", ">= 0.9.0"
-  gem.add_dependency %q<activesupport>, ">= 3.0"
+  gem.add_dependency "httparty", ">= 0.9.0"  
+  gem.add_dependency %q<active_support>, ">= 3.0"
 
   gem.add_development_dependency "rspec", "~> 2.11.0"
   gem.add_development_dependency "webmock", "< 1.9.0"
