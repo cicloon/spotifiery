@@ -24,14 +24,14 @@ module Spotifiery
         # Accept the same params as spotify search API
         def find opts = {}        
           parsed_response = ask_spotify opts
-          Spotifiery::SearchResult::Base.new parsed_response
+          Spotifiery::SearchResult::Base.new parsed_response, self
         end
 
         private
 
         def ask_spotify opts = {}          
           opts = {:q => '', :page => '1'}.merge opts
-          self.get("/#{name.demodulize.downcase}.json" , :query => opts.to_param ).parsed_response
+          self.get("/#{base_name.demodulize.downcase}.json" , :query => opts.to_param ).parsed_response
         end
       end
       
@@ -96,7 +96,7 @@ module Spotifiery
 
       # Define base attribute methods from an Spotify lookup
       def set_base_attributes_by_lookup attributes_hash
-        searchable_type = self.class.name.demodulize.downcase      
+        searchable_type = self.class.base_name.demodulize.downcase      
         initialize_base_attributes_getters attributes_hash[ searchable_type ]
       end
 

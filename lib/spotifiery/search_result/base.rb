@@ -8,13 +8,13 @@ module Spotifiery
 
     class Base
       
-      def initialize response
+      def initialize response, response_class = nil
 
         response_hash = HashWithIndifferentAccess.new response        
         
         @info = response_hash[:info]
         response_results = response_hash[ ActiveSupport::Inflector.pluralize(@info[:type]) ]
-        response_class = ActiveSupport::Inflector.constantize( "Spotifiery::Searchable::" + ActiveSupport::Inflector.titleize(@info[:type]))
+        response_class = ActiveSupport::Inflector.constantize( "Spotifiery::Searchable::" + ActiveSupport::Inflector.titleize(@info[:type])) if response_class.blank?
         @results = response_results.map{|result_hash| response_class.new(result_hash) }
       end
 

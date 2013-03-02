@@ -7,6 +7,10 @@ module Spotifiery
       LOOKUPS = ['artist' , 'track']
       QUERY_EXTRA_DEFAULT = 'trackdetail'
 
+      def self.base_name
+        'album'
+      end
+
       private
 
       # Spotify messed it up with albums and artists.
