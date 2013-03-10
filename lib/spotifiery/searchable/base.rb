@@ -39,7 +39,7 @@ module Spotifiery
       # Can be initialized from a spotify uri or from an search result hash.
       # This way Spotify is not asked when initialized from a search result when name, popularity, etc are called
       def initialize spotify_uri_or_hash
-              
+        @base_attributes = {}
         if spotify_uri_or_hash.is_a? Hash          
           initialize_base_attributes_getters HashWithIndifferentAccess.new spotify_uri_or_hash
           @href = spotify_uri_or_hash['href']
@@ -58,23 +58,27 @@ module Spotifiery
 
       def method_missing(method, *args, &block)
         
-        # Looked in spotify before?
-        if !defined?(@lookup_response)
-          lookup_in_spotify
-        end
-
         # Try to find the method in base_attributes
-        if @base_attributes.has_key? method
-          # Always try to parse for integers
-          Integer(@base_attributes[method],10) rescue @base_attributes[method]
-        # If not try to see if an instance variable is defined
-        elsif instance_variable_defined?("@#{method}")
-            instance_variable_get("@#{method}")
-        else
-          super
+        res = get_from_base_attrs(method)
+        # Looked in spotify before?
+        lookup_in_spotify if res.blank? && !defined?(@lookup_response)
+        res = get_from_base_attrs(method)
+        if res.blank?
+        # If not try to see if an instance variable is defined          
+          if instance_variable_defined?("@#{method}")            
+            res = instance_variable_get("@#{method}")
+          else
+            super
+          end        
         end
-
+        res
       end
+
+
+      def get_from_base_attrs(method)
+        Integer(@base_attributes[method],10) rescue @base_attributes[method]
+      end
+
 
       def respond_to_missing?(method, include_private = false)
         if !defined? @lookup_response
@@ -137,7 +141,7 @@ module Spotifiery
       def define_base_method method
         send(:define_singleton_method, method) do
           # Always try to parse for integers
-          Integer(@base_attributes[attribute],10) rescue @base_attributes[attribute]
+          get_from_base_attrs(method)          
         end
       end
 

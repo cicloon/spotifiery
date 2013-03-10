@@ -11,7 +11,6 @@ module Spotifiery
       def initialize response, response_class = nil
 
         response_hash = HashWithIndifferentAccess.new response        
-        
         @info = response_hash[:info]
         response_results = response_hash[ ActiveSupport::Inflector.pluralize(@info[:type]) ]
         response_class = ActiveSupport::Inflector.constantize( "Spotifiery::Searchable::" + ActiveSupport::Inflector.titleize(@info[:type])) if response_class.blank?
@@ -23,7 +22,7 @@ module Spotifiery
       end
 
 
-      def method_missing(method, *args, &block)                
+      def method_missing(method, *args, &block)
         if defined?(@info) && @info.has_key?(method)
           @info[method]
         elsif defined?(@info) && method.eql?( ActiveSupport::Inflector.pluralize(@info[:type]).to_sym )
